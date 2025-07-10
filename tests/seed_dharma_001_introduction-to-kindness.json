@@ -1,0 +1,70 @@
+{
+  "id": "seed_dharma_001",
+  "title": "Introduction to Kindness",
+  "level": "Seed",
+  "category": "dharma",
+  "prerequisites": [],
+  "learning_objectives": [
+    "Understand what kindness means in daily life",
+    "Recognize acts of kindness in stories and examples",
+    "Practice simple acts of kindness with guidance"
+  ],
+  "estimated_duration": 20,
+  "content": {
+    "text": "# The Magic of Kindness\n\nImagine a world where everyone is kind to each other. What would that look like?\n\n## What is Kindness?\n\nKindness is like sunshine for the heart. When we are kind, we:\n- Help others when they need it\n- Speak gently and with care\n- Share what we have\n- Listen when someone is sad\n- Say 'please' and 'thank you'\n\n## A Story of Kindness\n\nOnce upon a time, there was a little girl named Priya. She saw an old man struggling to carry his groceries. Even though she was small, she offered to help carry one light bag. The old man smiled so brightly that Priya felt warm and happy inside.\n\nThat evening, when Priya's mother was tired from work, Priya remembered how good it felt to help. She brought her mother a glass of water without being asked. Her mother's surprised smile made Priya's heart feel full of joy.\n\n## Kindness is Everywhere\n\nLook around you! Kindness happens when:\n- A friend shares their lunch\n- Someone holds the door open\n- A teacher explains something patiently\n- A parent gives a hug when you're sad\n- You pet a friendly dog gently\n\n## Your Turn to Practice\n\nKindness is like a muscle - the more you use it, the stronger it gets! Today, try one small act of kindness. It could be:\n- Saying something nice to someone\n- Helping with a small task\n- Sharing a toy or snack\n- Listening carefully when someone talks\n\nRemember: Even the smallest act of kindness can make someone's whole day brighter!",
+    "media": {
+      "images": ["kindness_story_illustration.jpg", "helping_hands.jpg"],
+      "videos": [],
+      "audio": ["kindness_story_narration.mp3"]
+    }
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "In the story, how did Priya show kindness to the old man?",
+      "options": [
+        "She offered to help carry his groceries",
+        "She gave him money",
+        "She told him a joke",
+        "She ran away"
+      ],
+      "correct_answer": 0,
+      "explanation": "Priya showed kindness by offering to help carry the old man's groceries, even though she was small. This shows that kindness doesn't depend on how big or strong you are!"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Kindness only counts if you help with big, important things.",
+      "correct_answer": false,
+      "explanation": "False! Even small acts of kindness, like saying 'thank you' or sharing a smile, can make a big difference in someone's day."
+    },
+    {
+      "id": "q3",
+      "type": "reflection",
+      "question": "Think of a time when someone was kind to you. How did it make you feel?",
+      "guidance": "There's no wrong answer here. Think about how kindness made you feel - maybe happy, grateful, loved, or special. These feelings help us understand why kindness is so important."
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "question": "What is one act of kindness you could do today?",
+      "sample_answers": [
+        "Help someone carry something",
+        "Say something nice to a friend",
+        "Share my snack",
+        "Listen when someone is talking",
+        "Help clean up without being asked"
+      ]
+    }
+  ],
+  "tts": true,
+  "metadata": {
+    "created_by": "Akash Gurukul Team",
+    "created_date": "2025-01-01",
+    "last_modified": "2025-01-01",
+    "version": "1.0",
+    "tags": ["kindness", "empathy", "helping", "beginner", "story-based"],
+    "difficulty": 1
+  }
+}

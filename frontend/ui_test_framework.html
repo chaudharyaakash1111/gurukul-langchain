@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Gurukul - Live UI Testing Framework</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .lesson-panel, .agent-panel {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .lesson-panel h2, .agent-panel h2 {
+            color: #4a5568;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+        
+        .lesson-selector {
+            margin-bottom: 20px;
+        }
+        
+        .lesson-selector select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 16px;
+            background: white;
+        }
+        
+        .lesson-content {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #4299e1;
+        }
+        
+        .agent-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .agent-btn {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .agent-btn.seed {
+            background: #48bb78;
+            color: white;
+        }
+        
+        .agent-btn.tree {
+            background: #ed8936;
+            color: white;
+        }
+        
+        .agent-btn.sky {
+            background: #667eea;
+            color: white;
+        }
+        
+        .agent-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .agent-btn.active {
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+        }
+        
+        .chat-container {
+            background: #f7fafc;
+            border-radius: 8px;
+            height: 300px;
+            overflow-y: auto;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .message {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        
+        .message.user {
+            background: #bee3f8;
+            margin-left: 20px;
+        }
+        
+        .message.agent {
+            background: #c6f6d5;
+            margin-right: 20px;
+        }
+        
+        .message.agent.seed {
+            background: #c6f6d5;
+            border-left: 4px solid #48bb78;
+        }
+        
+        .message.agent.tree {
+            background: #fed7aa;
+            border-left: 4px solid #ed8936;
+        }
+        
+        .message.agent.sky {
+            background: #e6fffa;
+            border-left: 4px solid #667eea;
+        }
+        
+        .input-container {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .input-container input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        
+        .input-container button {
+            padding: 12px 20px;
+            background: #4299e1;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .input-container button:hover {
+            background: #3182ce;
+        }
+        
+        .status-panel {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-top: 20px;
+        }
+        
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .status-item {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .status-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #4299e1;
+        }
+        
+        .status-label {
+            color: #718096;
+            margin-top: 5px;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            color: #4299e1;
+            font-style: italic;
+        }
+        
+        .error {
+            background: #fed7d7;
+            color: #c53030;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+            display: none;
+        }
+        
+        .success {
+            background: #c6f6d5;
+            color: #2f855a;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🕉️ Akash Gurukul</h1>
+            <p>Live UI Testing Framework - Day 3</p>
+        </div>
+        
+        <div class="main-content">
+            <div class="lesson-panel">
+                <h2>📚 Lesson Management</h2>
+
+                <div class="lesson-selector">
+                    <select id="lessonSelect">
+                        <option value="">Select a lesson...</option>
+                    </select>
+                </div>
+
+                <div class="error" id="lessonError"></div>
+                <div class="success" id="lessonSuccess"></div>
+
+                <div class="lesson-content" id="lessonContent">
+                    <p>Select a lesson to begin your learning journey...</p>
+                </div>
+
+                <div class="lesson-actions">
+                    <button onclick="startLesson()" class="agent-btn seed" style="width: 48%; margin-top: 15px;">
+                        🚀 Start Lesson
+                    </button>
+                    <button onclick="showQuiz()" class="agent-btn tree" style="width: 48%; margin-top: 15px; margin-left: 4%;">
+                        📝 Take Quiz
+                    </button>
+                </div>
+
+                <!-- Quiz Panel -->
+                <div id="quizPanel" style="display: none; margin-top: 20px; background: #f0f8ff; padding: 20px; border-radius: 8px; border: 2px solid #4299e1;">
+                    <h3>📝 Quiz Time!</h3>
+                    <div id="quizContent"></div>
+                    <div id="quizFeedback" style="margin-top: 15px;"></div>
+                    <div class="quiz-actions" style="margin-top: 15px;">
+                        <button onclick="submitQuizAnswer()" class="agent-btn sky" style="margin-right: 10px;">Submit Answer</button>
+                        <button onclick="nextQuestion()" class="agent-btn seed" style="display: none;" id="nextBtn">Next Question</button>
+                        <button onclick="hideQuiz()" class="agent-btn" style="background: #718096;">Close Quiz</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="agent-panel">
+                <h2>🤖 Agent Interaction</h2>
+                
+                <div class="agent-buttons">
+                    <button class="agent-btn seed" onclick="selectAgent('seed')">
+                        🌱 Seed<br><small>Practice</small>
+                    </button>
+                    <button class="agent-btn tree" onclick="selectAgent('tree')">
+                        🌳 Tree<br><small>Wisdom</small>
+                    </button>
+                    <button class="agent-btn sky" onclick="selectAgent('sky')">
+                        🌌 Sky<br><small>Philosophy</small>
+                    </button>
+                </div>
+                
+                <div class="chat-container" id="chatContainer">
+                    <div class="message agent seed">
+                        <strong>Welcome to Akash Gurukul!</strong><br>
+                        Choose an agent and start your learning journey. Each agent offers a unique perspective on the same lesson.
+                    </div>
+                </div>
+                
+                <div class="loading" id="chatLoading">Thinking...</div>
+                
+                <div class="input-container">
+                    <input type="text" id="messageInput" placeholder="Ask your question..." onkeypress="handleKeyPress(event)">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="status-panel">
+            <h2>📊 System Status</h2>
+            <div class="status-grid">
+                <div class="status-item">
+                    <div class="status-value" id="lessonCount">-</div>
+                    <div class="status-label">Lessons Available</div>
+                </div>
+                <div class="status-item">
+                    <div class="status-value" id="agentCount">-</div>
+                    <div class="status-label">Active Agents</div>
+                </div>
+                <div class="status-item">
+                    <div class="status-value" id="messageCount">0</div>
+                    <div class="status-label">Messages Sent</div>
+                </div>
+                <div class="status-item">
+                    <div class="status-value" id="currentAgent">None</div>
+                    <div class="status-label">Current Agent</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:8000';
+        let currentStudent = 'ui_test_student_' + Date.now();
+        let currentAgent = 'seed';
+        let currentLesson = null;
+        let messageCount = 0;
+        let quizQuestions = [];
+        let currentQuestionIndex = 0;
+        let quizScore = 0;
+
+        // Initialize the UI
+        async function initializeUI() {
+            try {
+                // Check system health
+                const health = await fetch(`${API_BASE}/api/health`).then(r => r.json());
+                document.getElementById('agentCount').textContent = health.agents_active;
+                document.getElementById('lessonCount').textContent = health.lessons_loaded;
+                
+                // Load available lessons
+                const lessons = await fetch(`${API_BASE}/api/curriculum/lessons`).then(r => r.json());
+                const select = document.getElementById('lessonSelect');
+                
+                lessons.lessons.forEach(lesson => {
+                    const option = document.createElement('option');
+                    option.value = lesson.id;
+                    option.textContent = `${lesson.title} (${lesson.level})`;
+                    select.appendChild(option);
+                });
+                
+                showSuccess('lessonSuccess', 'System initialized successfully!');
+            } catch (error) {
+                showError('lessonError', 'Failed to initialize system: ' + error.message);
+            }
+        }
+
+        // Select an agent
+        function selectAgent(agentType) {
+            currentAgent = agentType;
+            document.getElementById('currentAgent').textContent = agentType.charAt(0).toUpperCase() + agentType.slice(1);
+            
+            // Update button states
+            document.querySelectorAll('.agent-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelector(`.agent-btn.${agentType}`).classList.add('active');
+            
+            addMessage('system', `Switched to ${agentType.charAt(0).toUpperCase() + agentType.slice(1)} agent`, agentType);
+        }
+
+        // Start a lesson
+        async function startLesson() {
+            const lessonId = document.getElementById('lessonSelect').value;
+            if (!lessonId) {
+                showError('lessonError', 'Please select a lesson first');
+                return;
+            }
+
+            try {
+                // Start lesson via API
+                const response = await fetch(`${API_BASE}/api/lessons/start`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        student_id: currentStudent,
+                        lesson_id: lessonId
+                    })
+                });
+
+                const result = await response.json();
+                currentLesson = lessonId;
+                
+                // Display lesson content
+                const lessonData = result.lesson_context.lesson_data;
+                document.getElementById('lessonContent').innerHTML = `
+                    <h3>${lessonData.title}</h3>
+                    <p><strong>Level:</strong> ${lessonData.level} | <strong>Category:</strong> ${lessonData.category}</p>
+                    <div style="margin-top: 15px;">
+                        ${lessonData.content.text.substring(0, 300)}...
+                    </div>
+                `;
+                
+                showSuccess('lessonSuccess', `Started lesson: ${lessonData.title}`);
+                addMessage('system', `Lesson "${lessonData.title}" started. You can now interact with any agent about this lesson.`, 'seed');
+                
+            } catch (error) {
+                showError('lessonError', 'Failed to start lesson: ' + error.message);
+            }
+        }
+
+        // Send message to agent
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            if (!currentLesson) {
+                showError('lessonError', 'Please start a lesson first');
+                return;
+            }
+
+            input.value = '';
+            addMessage('user', message);
+            showLoading(true);
+
+            try {
+                const response = await fetch(`${API_BASE}/api/agents/chat`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        agent_type: currentAgent,
+                        student_id: currentStudent,
+                        message: message,
+                        context: { current_lesson: currentLesson }
+                    })
+                });
+
+                const result = await response.json();
+                addMessage('agent', result.response, currentAgent);
+                
+                messageCount++;
+                document.getElementById('messageCount').textContent = messageCount;
+                
+            } catch (error) {
+                addMessage('system', 'Error: ' + error.message, 'error');
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        // Add message to chat
+        function addMessage(type, content, agentType = '') {
+            const container = document.getElementById('chatContainer');
+            const message = document.createElement('div');
+            message.className = `message ${type} ${agentType}`;
+            
+            if (type === 'user') {
+                message.innerHTML = `<strong>You:</strong> ${content}`;
+            } else if (type === 'agent') {
+                const agentName = agentType.charAt(0).toUpperCase() + agentType.slice(1);
+                message.innerHTML = `<strong>${agentName} Agent:</strong> ${content}`;
+            } else {
+                message.innerHTML = `<em>${content}</em>`;
+            }
+            
+            container.appendChild(message);
+            container.scrollTop = container.scrollHeight;
+        }
+
+        // Handle enter key
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        // Show loading state
+        function showLoading(show) {
+            document.getElementById('chatLoading').style.display = show ? 'block' : 'none';
+        }
+
+        // Show error message
+        function showError(elementId, message) {
+            const element = document.getElementById(elementId);
+            element.textContent = message;
+            element.style.display = 'block';
+            setTimeout(() => element.style.display = 'none', 5000);
+        }
+
+        // Show success message
+        function showSuccess(elementId, message) {
+            const element = document.getElementById(elementId);
+            element.textContent = message;
+            element.style.display = 'block';
+            setTimeout(() => element.style.display = 'none', 3000);
+        }
+
+        // Initialize when page loads
+        window.addEventListener('load', initializeUI);
+        
+        // Select seed agent by default
+        window.addEventListener('load', () => {
+            setTimeout(() => selectAgent('seed'), 500);
+        });
+
+        // Quiz Functions
+        async function showQuiz() {
+            if (!currentLesson) {
+                showError('lessonError', 'Please start a lesson first');
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/api/quiz/questions/${currentLesson}`);
+                const result = await response.json();
+
+                quizQuestions = result.questions;
+                currentQuestionIndex = 0;
+                quizScore = 0;
+
+                if (quizQuestions.length === 0) {
+                    showError('lessonError', 'No quiz available for this lesson');
+                    return;
+                }
+
+                document.getElementById('quizPanel').style.display = 'block';
+                displayQuestion();
+
+            } catch (error) {
+                showError('lessonError', 'Failed to load quiz: ' + error.message);
+            }
+        }
+
+        function displayQuestion() {
+            if (currentQuestionIndex >= quizQuestions.length) {
+                showQuizComplete();
+                return;
+            }
+
+            const question = quizQuestions[currentQuestionIndex];
+            const quizContent = document.getElementById('quizContent');
+
+            let html = `
+                <div class="quiz-question">
+                    <h4>Question ${currentQuestionIndex + 1} of ${quizQuestions.length}</h4>
+                    <p><strong>${question.question}</strong></p>
+            `;
+
+            if (question.type === 'multiple_choice') {
+                html += '<div class="quiz-options">';
+                question.options.forEach((option, index) => {
+                    html += `
+                        <label style="display: block; margin: 10px 0; cursor: pointer;">
+                            <input type="radio" name="quizAnswer" value="${index}" style="margin-right: 10px;">
+                            ${option}
+                        </label>
+                    `;
+                });
+                html += '</div>';
+            } else if (question.type === 'reflection') {
+                html += `
+                    <textarea id="reflectionAnswer" placeholder="Share your thoughts..."
+                              style="width: 100%; height: 100px; margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+                `;
+            }
+
+            html += '</div>';
+            quizContent.innerHTML = html;
+
+            // Clear previous feedback
+            document.getElementById('quizFeedback').innerHTML = '';
+            document.getElementById('nextBtn').style.display = 'none';
+        }
+
+        async function submitQuizAnswer() {
+            const question = quizQuestions[currentQuestionIndex];
+            let answer = null;
+
+            if (question.type === 'multiple_choice') {
+                const selected = document.querySelector('input[name="quizAnswer"]:checked');
+                if (!selected) {
+                    alert('Please select an answer');
+                    return;
+                }
+                answer = parseInt(selected.value);
+            } else if (question.type === 'reflection') {
+                answer = document.getElementById('reflectionAnswer').value.trim();
+                if (!answer) {
+                    alert('Please provide your reflection');
+                    return;
+                }
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/api/quiz/submit`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        student_id: currentStudent,
+                        lesson_id: currentLesson,
+                        quiz_id: question.id,
+                        answer: answer
+                    })
+                });
+
+                const result = await response.json();
+                displayQuizFeedback(result);
+                quizScore += result.score;
+
+            } catch (error) {
+                alert('Error submitting answer: ' + error.message);
+            }
+        }
+
+        function displayQuizFeedback(result) {
+            const feedback = document.getElementById('quizFeedback');
+            const isCorrect = result.correct;
+
+            feedback.innerHTML = `
+                <div style="padding: 15px; border-radius: 8px; background: ${isCorrect ? '#c6f6d5' : '#fed7d7'}; border-left: 4px solid ${isCorrect ? '#48bb78' : '#f56565'};">
+                    <h4 style="margin: 0 0 10px 0; color: ${isCorrect ? '#2f855a' : '#c53030'};">
+                        ${isCorrect ? '✅ Correct!' : '❌ Not quite right'}
+                    </h4>
+                    <p style="margin: 0 0 10px 0;"><strong>Explanation:</strong> ${result.explanation}</p>
+                    ${result.agent_feedback ? `<p style="margin: 0; font-style: italic;"><strong>Agent Feedback:</strong> ${result.agent_feedback}</p>` : ''}
+                    <p style="margin: 10px 0 0 0; font-weight: bold;">Score: ${result.score.toFixed(1)}/1.0</p>
+                </div>
+            `;
+
+            document.getElementById('nextBtn').style.display = 'inline-block';
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            displayQuestion();
+        }
+
+        function showQuizComplete() {
+            const quizContent = document.getElementById('quizContent');
+            const totalScore = quizScore.toFixed(1);
+            const percentage = ((quizScore / quizQuestions.length) * 100).toFixed(1);
+
+            quizContent.innerHTML = `
+                <div style="text-align: center; padding: 20px;">
+                    <h3>🎉 Quiz Complete!</h3>
+                    <p style="font-size: 1.2em; margin: 20px 0;">
+                        Your Score: <strong>${totalScore}/${quizQuestions.length}</strong> (${percentage}%)
+                    </p>
+                    <p style="color: #4299e1;">
+                        ${percentage >= 80 ? 'Excellent work! You have a strong understanding of the material.' :
+                          percentage >= 60 ? 'Good job! Consider reviewing the material to deepen your understanding.' :
+                          'Keep practicing! Learning is a journey, and every step counts.'}
+                    </p>
+                </div>
+            `;
+
+            document.getElementById('quizFeedback').innerHTML = '';
+            document.getElementById('nextBtn').style.display = 'none';
+        }
+
+        function hideQuiz() {
+            document.getElementById('quizPanel').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
