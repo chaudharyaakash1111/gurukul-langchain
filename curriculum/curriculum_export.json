@@ -1,5 +1,213 @@
 {
   "lessons": {
+    "foundation_000_sankalpa": {
+      "id": "foundation_000_sankalpa",
+      "title": "Sankalpa: The Sacred Vow of Learning",
+      "level": "Foundation",
+      "category": "foundation",
+      "prerequisites": [],
+      "learning_objectives": {
+        "overall": [
+          "Understand the sacred nature of learning in the Gurukul tradition",
+          "Make a personal commitment to authentic learning",
+          "Learn the principles that guide the Akash Gurukul experience",
+          "Establish the right mindset for transformative education"
+        ],
+        "by_agent": {
+          "seed": [
+            "Practice the daily rituals of mindful learning",
+            "Develop habits of respect for knowledge and teachers",
+            "Learn to approach each lesson with fresh curiosity",
+            "Build discipline in study and reflection practices"
+          ],
+          "tree": [
+            "Understand the philosophical foundations of Gurukul education",
+            "Comprehend the relationship between student, teacher, and knowledge",
+            "Grasp the principles of holistic learning and character development",
+            "Explore the wisdom traditions that inform our approach"
+          ],
+          "sky": [
+            "Contemplate the sacred nature of knowledge transmission",
+            "Reflect on learning as a spiritual journey of self-discovery",
+            "Connect with the lineage of seekers and sages",
+            "Discover your unique purpose within the cosmic order"
+          ]
+        }
+      },
+      "estimated_duration": 25,
+      "content": {
+        "text": "# Sankalpa: The Sacred Vow of Learning\n\n*\"Gurur Brahma Gurur Vishnu Gurur Devo Maheshwarah\nGuru Saakshaat Para Brahma Tasmai Shri Gurave Namah\"*\n\n*The Guru is Brahma (the creator), the Guru is Vishnu (the sustainer), the Guru is Shiva (the transformer). The Guru is the very embodiment of the Supreme Reality. Salutations to that revered Guru.*\n\n## Welcome to Akash Gurukul\n\nYou are about to embark on a sacred journey of learning that has been traveled by countless seekers for thousands of years. In the ancient tradition of the Gurukul, learning is not merely the acquisition of information, but the transformation of the entire being.\n\n## What is Sankalpa?\n\nSankalpa (संकल्प) is a Sanskrit word that means \"sacred vow\" or \"heartfelt intention.\" It is more than a goal or wish - it is a deep commitment that aligns your entire being with your highest purpose.\n\nIn the context of learning, your Sankalpa is your sacred promise to:\n- Approach knowledge with reverence and humility\n- Remain open to transformation\n- Honor the wisdom of teachers and traditions\n- Use your learning for the benefit of all beings\n\n## The Three Pillars of Gurukul Learning\n\n### 1. Shraddha (श्रद्धा) - Reverent Faith\nShraddha is not blind belief, but intelligent faith born of understanding. It is the recognition that:\n- Knowledge is sacred and transformative\n- Every lesson contains seeds of wisdom\n- The learning process itself is divine\n- Challenges are opportunities for growth\n\n### 2. Seva (सेवा) - Selfless Service\nIn the Gurukul tradition, learning and service are inseparable. True knowledge naturally expresses itself as:\n- Service to teachers and fellow students\n- Sharing wisdom with those who seek it\n- Using skills for the welfare of society\n- Protecting and preserving knowledge for future generations\n\n### 3. Sadhana (साधना) - Dedicated Practice\nSadhana is the disciplined practice that transforms knowledge into wisdom:\n- Regular study and reflection\n- Application of learning in daily life\n- Continuous self-examination and growth\n- Patience with the gradual process of transformation\n\n## Your Three Guides: Seed, Tree, and Sky\n\nIn Akash Gurukul, you will learn from three types of teachers, each representing a different aspect of wisdom:\n\n### 🌱 Seed Agent - The Practice Mentor\n*\"Show me and I will learn\"*\n\nThe Seed Agent is your guide for practical application. Like a gardener who knows exactly when and how to plant, water, and tend to growing things, the Seed Agent helps you:\n- Practice skills through hands-on exercises\n- Build good learning habits\n- Apply knowledge in real-world situations\n- Develop confidence through guided experience\n\n### 🌳 Tree Agent - The Wisdom Teacher\n*\"Help me understand and I will grow\"*\n\nThe Tree Agent is your guide for deep understanding. Like an ancient tree with deep roots and broad branches, the Tree Agent helps you:\n- Understand the principles behind what you're learning\n- See connections between different areas of knowledge\n- Develop conceptual frameworks for thinking\n- Cultivate wisdom that endures through time\n\n### 🌌 Sky Agent - The Philosophical Guru\n*\"Inspire me to discover and I will transform\"*\n\nThe Sky Agent is your guide for spiritual insight. Like the infinite sky that embraces all, the Sky Agent helps you:\n- Reflect on the deeper meaning of your learning\n- Connect knowledge to your life's purpose\n- Explore philosophical and spiritual dimensions\n- Discover your unique path of growth and service\n\n## The Gurukul Principles\n\n### Principle 1: Every Question is Sacred\nThere are no stupid questions in the Gurukul. Every sincere inquiry is honored as a step toward understanding.\n\n### Principle 2: Learning is Transformation\nWe don't just acquire knowledge; we allow knowledge to transform us. Be prepared to change and grow.\n\n### Principle 3: Wisdom Serves All\nTrue learning benefits not just the individual but the entire community. Share your insights generously.\n\n### Principle 4: The Journey is the Destination\nEnjoy the process of learning itself. Each moment of understanding is a gift to be savored.\n\n### Principle 5: Respect the Lineage\nHonor the countless teachers and students who have preserved and transmitted this wisdom through the ages.\n\n## Your Sankalpa Ceremony\n\nNow, it is time to make your sacred vow. Place your hand on your heart and speak these words with sincere intention:\n\n*\"I, [your name], enter this Gurukul with reverence and humility.\nI vow to approach each lesson with an open heart and curious mind.\nI promise to honor my teachers - Seed, Tree, and Sky - and learn from each with respect.\nI commit to using my knowledge for the benefit of all beings.\nI embrace the journey of transformation that lies ahead.\nMay my learning be a service to the divine wisdom that flows through all things.\nOm Shanti Shanti Shanti.\"*\n\n## Beginning Your Journey\n\nWith your Sankalpa made, you are now ready to begin your learning journey. Remember:\n\n- **Start with Beginner's Mind**: Approach each lesson as if encountering it for the first time\n- **Practice Patience**: Deep learning takes time. Trust the process\n- **Stay Curious**: Let wonder and questioning guide your exploration\n- **Embrace Challenges**: Difficulties are opportunities for growth\n- **Celebrate Progress**: Acknowledge every step forward, no matter how small\n\nWelcome to Akash Gurukul. Your transformation begins now.",
+        "media": {
+          "images": [
+            "gurukul_ceremony.jpg",
+            "three_agents_mandala.jpg",
+            "sankalpa_ritual.jpg"
+          ],
+          "videos": [
+            "sankalpa_ceremony.mp4",
+            "gurukul_introduction.mp4"
+          ],
+          "audio": [
+            "sankalpa_chant.mp3",
+            "gurukul_welcome.mp3"
+          ]
+        }
+      },
+      "query_paths": {
+        "practical": {
+          "agent_type": "seed",
+          "focus": "establishing daily learning practices and rituals",
+          "sample_queries": [
+            "How do I start my daily learning practice?",
+            "What rituals help me stay focused while studying?",
+            "How can I show respect to my teachers and learning materials?",
+            "What are practical ways to serve others through my learning?"
+          ],
+          "practice_exercises": [
+            {
+              "title": "Daily Learning Ritual",
+              "description": "Establish a sacred beginning and ending to your study sessions",
+              "steps": [
+                "Begin with three deep breaths and a moment of gratitude",
+                "Set a clear intention for your learning session",
+                "Study with full attention and respect for the material",
+                "End with reflection on what you've learned",
+                "Consider how you can apply or share this knowledge"
+              ]
+            },
+            {
+              "title": "Gratitude Practice",
+              "description": "Cultivate appreciation for the opportunity to learn",
+              "daily_practice": "Each day, identify three things you're grateful for in your learning journey - a teacher, a concept that clicked, a challenge that helped you grow"
+            }
+          ]
+        },
+        "conceptual": {
+          "agent_type": "tree",
+          "focus": "understanding the philosophy and principles of Gurukul education",
+          "sample_queries": [
+            "What makes Gurukul education different from other approaches?",
+            "Why is the relationship between student and teacher considered sacred?",
+            "How does learning transform both knowledge and the learner?",
+            "What is the connection between wisdom and service?"
+          ],
+          "key_concepts": [
+            {
+              "concept": "Guru-Shishya Parampara",
+              "explanation": "The sacred tradition of knowledge transmission from teacher to student",
+              "connection": "This creates an unbroken lineage of wisdom that preserves and evolves knowledge across generations"
+            },
+            {
+              "concept": "Holistic Education",
+              "explanation": "Learning that develops the whole person - mind, body, heart, and spirit",
+              "connection": "True education transforms character and consciousness, not just intellectual capacity"
+            },
+            {
+              "concept": "Knowledge as Divine",
+              "explanation": "The understanding that all knowledge is sacred and connects us to universal truth",
+              "connection": "This perspective transforms learning from acquisition to revelation"
+            }
+          ]
+        },
+        "reflective": {
+          "agent_type": "sky",
+          "focus": "contemplating the spiritual dimensions of learning and knowledge",
+          "sample_queries": [
+            "What is my deeper purpose in seeking knowledge?",
+            "How does learning connect me to the divine?",
+            "What does it mean to be part of an ancient lineage of seekers?",
+            "How can my learning serve the evolution of consciousness?"
+          ],
+          "reflection_prompts": [
+            {
+              "prompt": "The Sacred Fire of Knowledge",
+              "question": "Imagine knowledge as a sacred fire that has been passed from teacher to student for thousands of years. What does it mean to receive this flame? What is your responsibility as its keeper?",
+              "guidance": "Contemplate your role in the eternal chain of learning and teaching."
+            },
+            {
+              "prompt": "The Mirror of Learning",
+              "question": "How does the process of learning reveal your true nature? What does your curiosity and desire to grow tell you about your essential self?",
+              "guidance": "Reflect on learning as a path of self-discovery and spiritual awakening."
+            },
+            {
+              "prompt": "The Cosmic Classroom",
+              "question": "If the entire universe is your classroom and every experience is a lesson, what is the curriculum of your life? What is existence trying to teach you?",
+              "guidance": "Consider how formal learning fits into the larger education of the soul."
+            }
+          ]
+        }
+      },
+      "quiz": [
+        {
+          "id": "sankalpa_meaning",
+          "type": "multiple_choice",
+          "question": "What does Sankalpa mean in the context of learning?",
+          "options": [
+            "A study schedule or plan",
+            "A sacred vow or heartfelt intention for learning",
+            "A type of meditation practice",
+            "A graduation ceremony"
+          ],
+          "correct_answer": 1,
+          "explanation": "Sankalpa is a sacred vow or heartfelt intention that aligns your entire being with your highest purpose in learning.",
+          "agent_specific_feedback": {
+            "seed": "Perfect! Now practice making your own Sankalpa before each study session.",
+            "tree": "Excellent understanding! This concept is central to transformative education.",
+            "sky": "Beautiful insight! You've grasped the sacred nature of intentional learning."
+          }
+        },
+        {
+          "id": "three_pillars",
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT one of the three pillars of Gurukul learning?",
+          "options": [
+            "Shraddha (Reverent Faith)",
+            "Seva (Selfless Service)",
+            "Sadhana (Dedicated Practice)",
+            "Samsara (Worldly Achievement)"
+          ],
+          "correct_answer": 3,
+          "explanation": "The three pillars are Shraddha (reverent faith), Seva (selfless service), and Sadhana (dedicated practice). Samsara refers to the cycle of worldly existence, not a pillar of learning.",
+          "agent_specific_feedback": {
+            "seed": "Great! Now practice incorporating these three pillars into your daily learning routine.",
+            "tree": "Excellent! You understand the foundational principles that guide authentic learning.",
+            "sky": "Perfect insight! You've recognized the spiritual foundations that elevate learning beyond mere information gathering."
+          }
+        },
+        {
+          "id": "personal_sankalpa",
+          "type": "reflection",
+          "question": "Write your personal Sankalpa for your learning journey. What sacred intention will guide your studies?",
+          "sample_answers": [
+            "I commit to learning with humility and using my knowledge to serve others",
+            "I vow to approach each lesson with curiosity and respect for the wisdom it contains",
+            "I promise to honor my teachers and share what I learn with those who seek knowledge",
+            "I dedicate my learning to the betterment of myself and all beings"
+          ],
+          "guidance": "Your Sankalpa should be personal, meaningful, and connect your learning to your highest values and aspirations.",
+          "agent_specific_feedback": {
+            "seed": "Beautiful! Keep this Sankalpa visible and recite it before each study session.",
+            "tree": "Wonderful! Your Sankalpa shows deep understanding of learning as transformation.",
+            "sky": "Profound! Your intention reveals the sacred nature of your learning journey."
+          }
+        }
+      ],
+      "tts": true,
+      "metadata": {
+        "created_by": "Akash Gurukul Curriculum Team",
+        "created_date": "2024-01-08",
+        "last_modified": "2024-01-08",
+        "version": "1.0",
+        "tags": [
+          "foundation",
+          "sankalpa",
+          "gurukul",
+          "sacred_learning",
+          "intention"
+        ],
+        "difficulty": 1
+      }
+    },
     "seed_dharma_001": {
       "id": "seed_dharma_001",
       "title": "Introduction to Kindness",
@@ -192,6 +400,485 @@
         "difficulty": 1
       }
     },
+    "seed_kama_001": {
+      "id": "seed_kama_001",
+      "title": "Joyful Living Practices",
+      "level": "Seed",
+      "category": "kama",
+      "prerequisites": [
+        "foundation_000_sankalpa"
+      ],
+      "learning_objectives": {
+        "overall": [
+          "Discover practical ways to cultivate joy in daily life",
+          "Learn to distinguish between pleasure and true fulfillment",
+          "Develop healthy relationships with desires and enjoyment",
+          "Create sustainable practices for well-being and happiness"
+        ],
+        "by_agent": {
+          "seed": [
+            "Practice specific techniques for generating joy and positivity",
+            "Develop daily habits that support emotional well-being",
+            "Learn practical skills for managing stress and cultivating peace",
+            "Build routines that nourish body, mind, and spirit"
+          ],
+          "tree": [
+            "Understand the philosophy of balanced living and healthy desires",
+            "Explore the relationship between attachment and fulfillment",
+            "Comprehend how joy contributes to overall life purpose",
+            "Study wisdom teachings on pleasure, desire, and contentment"
+          ],
+          "sky": [
+            "Contemplate the deeper sources of lasting happiness",
+            "Reflect on the connection between inner peace and outer joy",
+            "Explore the spiritual dimensions of pleasure and fulfillment",
+            "Discover joy as an expression of your essential nature"
+          ]
+        }
+      },
+      "estimated_duration": 30,
+      "content": {
+        "text": "# Joyful Living Practices: The Art of Sacred Enjoyment\n\n*\"Ananda\" - Bliss is your birthright*\n\nJoy is not a luxury or something to be earned - it is your natural state. Like a flower that blooms not for any purpose but simply because blooming is its nature, you are designed to experience joy, beauty, and fulfillment. This lesson explores how to cultivate sustainable joy while maintaining wisdom and balance.\n\n## Understanding Kama: The Pursuit of Fulfillment\n\nIn the ancient wisdom tradition, Kama represents the legitimate pursuit of pleasure, beauty, love, and emotional fulfillment. It is one of the four essential goals of human life, alongside:\n- **Dharma** (righteous living)\n- **Artha** (prosperity and security)\n- **Moksha** (spiritual liberation)\n\nKama teaches us that joy and pleasure, when approached with wisdom, are not obstacles to spiritual growth but expressions of it.\n\n## The Difference Between Pleasure and Joy\n\n### Pleasure: The Temporary\n- Depends on external circumstances\n- Comes and goes based on conditions\n- Often followed by its opposite\n- Can become addictive or compulsive\n- Examples: eating delicious food, entertainment, shopping\n\n### Joy: The Sustainable\n- Arises from inner contentment\n- Independent of external conditions\n- Naturally renewable and self-sustaining\n- Enhances overall well-being\n- Examples: gratitude, connection, creativity, service\n\n**The Goal**: Enjoy pleasures wisely while cultivating sustainable joy.\n\n## The Five Pillars of Joyful Living\n\n### 1. Gratitude Practice\n*\"Gratitude turns what we have into enough\"*\n\nGratitude is the fastest way to shift from scarcity to abundance, from complaint to contentment.\n\n**Daily Practice**:\n- Morning: Name 3 things you're grateful for\n- Evening: Reflect on 3 good moments from your day\n- Weekly: Write a gratitude letter to someone who has helped you\n\n### 2. Mindful Enjoyment\n*\"When you eat, eat. When you play, play.\"*\n\nTrue enjoyment comes from being fully present with pleasurable experiences.\n\n**Practice Guidelines**:\n- **Slow down**: Savor experiences rather than rushing through them\n- **Engage your senses**: Notice colors, textures, sounds, tastes, smells\n- **Minimize distractions**: Put away devices during enjoyable activities\n- **Express appreciation**: Say \"thank you\" for good experiences\n\n### 3. Creative Expression\n*\"Creativity is the soul's way of playing\"*\n\nCreativity connects us to the joy of creation itself, making us co-creators with life.\n\n**Simple Creative Practices**:\n- **Daily doodling**: 5 minutes of drawing whatever comes to mind\n- **Movement expression**: Dance to your favorite song\n- **Word play**: Write a short poem or story\n- **Cooking creativity**: Try a new recipe or ingredient\n- **Nature art**: Arrange flowers, stones, or leaves\n\n### 4. Connection and Love\n*\"Joy shared is joy doubled\"*\n\nHumans are wired for connection. Our deepest joys often come through loving relationships.\n\n**Connection Practices**:\n- **Quality time**: Give someone your full attention for 15 minutes\n- **Acts of kindness**: Do something nice for someone daily\n- **Deep listening**: Really hear what others are saying\n- **Appreciation expression**: Tell people what you value about them\n- **Community involvement**: Participate in group activities you enjoy\n\n### 5. Nature Immersion\n*\"In nature, we remember our place in the web of life\"*\n\nNature naturally restores our sense of wonder and connection to life's beauty.\n\n**Nature Practices**:\n- **Daily nature time**: Spend at least 10 minutes outdoors\n- **Mindful walking**: Walk slowly and notice natural beauty\n- **Sky gazing**: Watch clouds, stars, or sunrise/sunset\n- **Plant connection**: Care for plants or garden\n- **Weather appreciation**: Find beauty in all weather conditions\n\n## The Joy Toolkit: Quick Practices for Any Moment\n\n### 2-Minute Joy Boosters\n- **Smile meditation**: Smile gently and notice how it affects your mood\n- **Beauty hunt**: Find 3 beautiful things in your immediate environment\n- **Gratitude burst**: Rapidly list 10 things you appreciate\n- **Body appreciation**: Thank your body for all it does for you\n- **Memory joy**: Recall a happy memory in vivid detail\n\n### 5-Minute Joy Practices\n- **Dance break**: Put on music and move your body freely\n- **Laughter session**: Watch something funny or practice laughing\n- **Breathing joy**: Breathe in peace, breathe out gratitude\n- **Loving-kindness**: Send good wishes to yourself and others\n- **Sensory pleasure**: Enjoy something beautiful, tasty, or pleasant\n\n### 15-Minute Joy Rituals\n- **Creative play**: Engage in any creative activity without goals\n- **Nature meditation**: Sit quietly in nature and absorb its peace\n- **Gratitude journaling**: Write about what brings you joy\n- **Self-care ritual**: Do something nurturing for yourself\n- **Connection call**: Reach out to someone you care about\n\n## Navigating Challenges to Joy\n\n### When Life Feels Heavy\n**Challenge**: Difficult circumstances make joy seem inappropriate or impossible\n**Approach**: Start small - find tiny moments of beauty or relief\n**Practice**: \"Even in this difficulty, I can appreciate...\"\n\n### When Guilt Arises\n**Challenge**: Feeling guilty for enjoying life when others suffer\n**Approach**: Understand that your joy contributes to the world's healing\n**Practice**: \"My joy is a gift I give to the world\"\n\n### When Joy Feels Forced\n**Challenge**: Trying too hard to be happy creates pressure\n**Approach**: Allow all emotions while gently inclining toward joy\n**Practice**: \"I don't have to be joyful, but I can be open to joy\"\n\n### When Comparison Steals Joy\n**Challenge**: Comparing your life to others diminishes appreciation\n**Approach**: Focus on your unique path and blessings\n**Practice**: \"My joy is not dependent on having more than others\"\n\n## The Wisdom of Balanced Enjoyment\n\n### Healthy Relationship with Desires\n- **Acknowledge**: It's natural to have desires and preferences\n- **Evaluate**: Ask \"Will this serve my highest good?\"\n- **Enjoy**: When you choose to indulge, do so mindfully\n- **Release**: Don't cling to experiences or outcomes\n\n### Signs of Balanced Enjoyment\n- You can enjoy pleasures without becoming dependent on them\n- You find joy in simple, everyday experiences\n- Your happiness doesn't require constant stimulation\n- You can be content even when desires aren't fulfilled\n- Your joy enhances rather than detracts from your relationships\n\n## Creating Your Personal Joy Practice\n\n### Weekly Joy Planning\nEach week, intentionally plan for joy:\n- **Monday**: Schedule one thing you're looking forward to\n- **Wednesday**: Plan a creative or playful activity\n- **Friday**: Arrange time with someone you enjoy\n- **Weekend**: Include both active enjoyment and peaceful rest\n\n### Monthly Joy Review\nReflect on:\n- What brought me the most joy this month?\n- What drained my joy, and how can I address this?\n- What new sources of joy do I want to explore?\n- How can I share more joy with others?\n\n## The Ripple Effect of Joy\n\nWhen you cultivate genuine joy:\n- **Your energy becomes magnetic** - others are drawn to your positivity\n- **Your creativity flourishes** - joy opens channels of inspiration\n- **Your relationships deepen** - people feel safe and happy around you\n- **Your resilience grows** - joy provides strength during challenges\n- **Your service expands** - fulfilled people naturally want to give\n\n## Joy as Spiritual Practice\n\nIn many wisdom traditions, joy is considered a spiritual practice because:\n- It connects us to the divine nature of existence\n- It opens our hearts to love and compassion\n- It reminds us of life's inherent goodness\n- It helps us transcend ego-based suffering\n- It aligns us with the creative force of the universe\n\n## Your Joyful Living Commitment\n\nChoose one practice from each pillar to commit to for the next week:\n\n1. **Gratitude**: ________________________________\n2. **Mindful Enjoyment**: ________________________\n3. **Creative Expression**: ______________________\n4. **Connection**: _______________________________\n5. **Nature**: ___________________________________\n\nRemember: Joy is not selfish - it's essential. When you live joyfully, you become a beacon of light in the world, inspiring others to remember their own capacity for happiness and fulfillment.\n\n*\"The purpose of life is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.\" - Eleanor Roosevelt*\n\nYour joy is a gift to yourself and to the world. Embrace it fully, share it generously, and let it guide you toward a life of meaning and fulfillment.",
+        "media": {
+          "images": [
+            "joyful_celebration.jpg",
+            "nature_bliss.jpg",
+            "creative_expression.jpg"
+          ],
+          "videos": [
+            "joy_practices_demo.mp4",
+            "mindful_enjoyment_guide.mp4"
+          ],
+          "audio": [
+            "joyful_living_narration.mp3",
+            "gratitude_meditation.mp3"
+          ]
+        }
+      },
+      "query_paths": {
+        "practical": {
+          "agent_type": "seed",
+          "focus": "hands-on techniques for cultivating daily joy and well-being",
+          "sample_queries": [
+            "What are specific practices I can do to feel more joyful?",
+            "How can I create more fun and enjoyment in my daily routine?",
+            "What are quick ways to boost my mood when I'm feeling down?",
+            "How do I balance enjoying life with being responsible?"
+          ],
+          "practice_exercises": [
+            {
+              "title": "The Daily Joy Challenge",
+              "description": "A 7-day challenge to intentionally cultivate joy each day",
+              "daily_practices": [
+                "Day 1: Practice gratitude - list 10 things you appreciate",
+                "Day 2: Engage in creative play for 20 minutes",
+                "Day 3: Spend quality time in nature",
+                "Day 4: Connect meaningfully with someone you care about",
+                "Day 5: Try something new that sounds fun",
+                "Day 6: Practice mindful enjoyment of a simple pleasure",
+                "Day 7: Reflect on the week and celebrate your joy journey"
+              ]
+            },
+            {
+              "title": "Joy Emergency Kit",
+              "description": "Create a personalized toolkit for quickly accessing joy",
+              "components": [
+                "A playlist of songs that always make you smile",
+                "Photos that bring back happy memories",
+                "A list of 5-minute activities that boost your mood",
+                "Contact information for people who make you laugh",
+                "A collection of inspiring quotes or affirmations"
+              ]
+            }
+          ]
+        },
+        "conceptual": {
+          "agent_type": "tree",
+          "focus": "understanding the philosophy and psychology of joy and fulfillment",
+          "sample_queries": [
+            "What's the difference between happiness and joy?",
+            "How does joy relate to the other goals of life like dharma and moksha?",
+            "Why is it important to cultivate joy rather than just pursue pleasure?",
+            "How can I enjoy life without becoming attached to outcomes?"
+          ],
+          "key_concepts": [
+            {
+              "concept": "Sustainable Joy",
+              "explanation": "Joy that comes from inner contentment rather than external circumstances",
+              "connection": "This type of joy is renewable and doesn't depend on constantly changing conditions"
+            },
+            {
+              "concept": "Mindful Pleasure",
+              "explanation": "Enjoying sensory experiences with full presence and appreciation",
+              "connection": "This approach maximizes enjoyment while preventing addiction or compulsion"
+            },
+            {
+              "concept": "Joy as Service",
+              "explanation": "Understanding that personal joy contributes to collective well-being",
+              "connection": "Joyful people naturally inspire and uplift others, creating positive ripple effects"
+            }
+          ]
+        },
+        "reflective": {
+          "agent_type": "sky",
+          "focus": "contemplating the deeper spiritual dimensions of joy and fulfillment",
+          "sample_queries": [
+            "What is the relationship between joy and my spiritual nature?",
+            "How does cultivating joy serve my soul's evolution?",
+            "What does it mean that joy is my birthright?",
+            "How can I find joy even in difficult circumstances?"
+          ],
+          "reflection_prompts": [
+            {
+              "prompt": "The Source of Joy",
+              "question": "If joy is your natural state, what covers it up? What would happen if you removed these coverings?",
+              "guidance": "Contemplate joy not as something to achieve but as something to uncover by removing what obscures it."
+            },
+            {
+              "prompt": "Joy as Divine Expression",
+              "question": "How might your personal joy be an expression of the universe celebrating itself through you?",
+              "guidance": "Consider that your capacity for joy connects you to the creative, celebratory nature of existence itself."
+            },
+            {
+              "prompt": "The Paradox of Seeking Joy",
+              "question": "What happens when you stop chasing joy and simply allow yourself to be joyful?",
+              "guidance": "Explore how the pursuit of joy can sometimes prevent its natural arising."
+            }
+          ]
+        }
+      },
+      "quiz": [
+        {
+          "id": "joy_vs_pleasure",
+          "type": "multiple_choice",
+          "question": "What is the main difference between pleasure and sustainable joy?",
+          "options": [
+            "Pleasure is better than joy",
+            "Joy depends on external circumstances, pleasure comes from within",
+            "Pleasure is temporary and external, joy is renewable and internal",
+            "There is no difference between them"
+          ],
+          "correct_answer": 2,
+          "explanation": "Pleasure typically depends on external circumstances and is temporary, while sustainable joy arises from inner contentment and can be renewed regardless of external conditions.",
+          "agent_specific_feedback": {
+            "seed": "Perfect! Now practice cultivating both - enjoy pleasures mindfully while building practices that generate sustainable joy.",
+            "tree": "Excellent understanding! This distinction helps you make wise choices about how to pursue fulfillment.",
+            "sky": "Beautiful insight! You've touched the difference between conditional and unconditional happiness."
+          }
+        },
+        {
+          "id": "personal_joy_practice",
+          "type": "reflection",
+          "question": "What brings you the most sustainable joy in your life? How can you cultivate more of this?",
+          "sample_answers": [
+            "Connecting with loved ones - I can prioritize quality time and deep conversations",
+            "Being in nature - I can make daily walks or outdoor time a priority",
+            "Creative expression - I can set aside regular time for art, music, or writing",
+            "Helping others - I can look for more opportunities to serve and contribute"
+          ],
+          "guidance": "Identify what truly nourishes your soul and create practical ways to include more of it in your daily life.",
+          "agent_specific_feedback": {
+            "seed": "Great self-awareness! Now create a specific plan to include more of this joy source in your weekly routine.",
+            "tree": "Wonderful insight! Understanding your unique joy sources helps you design a fulfilling life aligned with your nature.",
+            "sky": "Beautiful recognition! You're connecting with what feeds your soul and brings you alive."
+          }
+        }
+      ],
+      "challenges": [
+        {
+          "id": "joyful_living_month",
+          "title": "30 Days of Joyful Living",
+          "description": "A month-long journey to establish sustainable joy practices",
+          "type": "progressive",
+          "weekly_themes": [
+            {
+              "week": 1,
+              "theme": "Foundation Building",
+              "focus": "Establish basic gratitude and mindfulness practices",
+              "daily_practice": "Morning gratitude (3 things) + one mindful pleasure experience"
+            },
+            {
+              "week": 2,
+              "theme": "Creative Expression",
+              "focus": "Explore different forms of creative play and expression",
+              "daily_practice": "15 minutes of creative activity + gratitude practice"
+            },
+            {
+              "week": 3,
+              "theme": "Connection and Service",
+              "focus": "Deepen relationships and find joy in giving",
+              "daily_practice": "One meaningful connection + one act of kindness + gratitude"
+            },
+            {
+              "week": 4,
+              "theme": "Integration and Sustainability",
+              "focus": "Create a personalized joy practice for ongoing use",
+              "daily_practice": "Your custom joy practice + weekly reflection"
+            }
+          ]
+        }
+      ],
+      "tts": true,
+      "metadata": {
+        "created_by": "Akash Gurukul Curriculum Team",
+        "created_date": "2024-01-08",
+        "last_modified": "2024-01-08",
+        "version": "1.0",
+        "tags": [
+          "joy",
+          "fulfillment",
+          "kama",
+          "well-being",
+          "happiness"
+        ],
+        "difficulty": 2
+      }
+    },
+    "sky_moksha_001": {
+      "id": "sky_moksha_001",
+      "title": "Inner Wisdom Awakening",
+      "level": "Sky",
+      "category": "moksha",
+      "prerequisites": [
+        "foundation_000_sankalpa"
+      ],
+      "learning_objectives": {
+        "overall": [
+          "Discover the source of inner wisdom within yourself",
+          "Learn to distinguish between knowledge and wisdom",
+          "Develop practices for accessing intuitive guidance",
+          "Understand the relationship between silence and insight"
+        ],
+        "by_agent": {
+          "seed": [
+            "Practice daily meditation and contemplation techniques",
+            "Develop skills for inner listening and reflection",
+            "Build habits of mindful awareness and presence",
+            "Learn practical methods for accessing inner guidance"
+          ],
+          "tree": [
+            "Understand the philosophical foundations of inner wisdom",
+            "Explore the relationship between consciousness and knowledge",
+            "Comprehend different types of knowing and awareness",
+            "Study wisdom traditions and their approaches to inner development"
+          ],
+          "sky": [
+            "Experience direct connection with your inner wisdom source",
+            "Contemplate the nature of consciousness and awareness",
+            "Explore the mystery of knowing beyond thinking",
+            "Discover your unique path to spiritual awakening"
+          ]
+        }
+      },
+      "estimated_duration": 40,
+      "content": {
+        "text": "# Inner Wisdom Awakening: The Light Within\n\n*\"Tat tvam asi\" - Thou art That*\n\nDeep within every being lies an inexhaustible source of wisdom, waiting to be discovered. This wisdom is not something you acquire from outside, but something you uncover from within. Like a lamp hidden under a basket, your inner light has always been shining - you simply need to remove what obscures it.\n\n## The Difference Between Knowledge and Wisdom\n\n### Knowledge: The Accumulated\nKnowledge is what we gather from books, teachers, and experiences. It is:\n- Information stored in memory\n- Facts, concepts, and theories\n- Something we can share and teach\n- Useful for navigating the external world\n\n### Wisdom: The Revealed\nWisdom is what emerges from the depths of our being. It is:\n- Insight that arises spontaneously\n- Understanding that transcends logic\n- Knowing that comes from silence\n- Guidance that feels absolutely true\n\n## The Three Doors to Inner Wisdom\n\n### 1. The Door of Silence\n*\"In the depth of silence, wisdom speaks\"*\n\nSilence is not merely the absence of sound, but the presence of profound stillness. In this stillness:\n- The mind's chatter subsides\n- Deeper truths can emerge\n- Intuitive insights arise naturally\n- The voice of wisdom becomes audible\n\n**Practice**: Spend 10 minutes each day in complete silence, not trying to achieve anything, just being present with whatever arises.\n\n### 2. The Door of Questions\n*\"The quality of your questions determines the quality of your life\"*\n\nWisdom often comes not as answers, but as better questions. Sacred questions include:\n- \"What is my deepest truth?\"\n- \"What wants to emerge through me?\"\n- \"What would love do here?\"\n- \"What is life asking of me now?\"\n\n**Practice**: Choose one sacred question and carry it with you for a week, allowing insights to emerge naturally.\n\n### 3. The Door of Presence\n*\"Wisdom is always available in this moment\"*\n\nWhen we are fully present, we connect with the intelligence of life itself. This presence:\n- Dissolves the barriers between self and wisdom\n- Allows natural knowing to flow\n- Connects us with universal intelligence\n- Reveals the perfection of each moment\n\n**Practice**: Throughout your day, pause and ask: \"What does this moment want to teach me?\"\n\n## The Inner Guru: Your Wisdom Self\n\nWithin you lives an aspect that already knows everything you need to know. This inner guru:\n- Speaks through intuition and insight\n- Guides you toward your highest good\n- Never leads you astray\n- Is always available when you listen\n\n### Recognizing the Voice of Inner Wisdom\n\nInner wisdom often speaks through:\n- **Sudden clarity** that feels absolutely true\n- **Peaceful knowing** that brings calm certainty\n- **Loving guidance** that serves your highest good\n- **Timeless insights** that feel both new and ancient\n\n### Distinguishing Wisdom from Mental Noise\n\n**Mental Noise** tends to be:\n- Anxious and urgent\n- Based on fear or desire\n- Repetitive and circular\n- Concerned with past or future\n\n**Inner Wisdom** tends to be:\n- Calm and patient\n- Based on love and truth\n- Fresh and spontaneous\n- Rooted in the present moment\n\n## The Awakening Process\n\n### Stage 1: Recognition\n*\"I have wisdom within me\"*\n\nThe journey begins with recognizing that you already possess everything you need. This isn't about acquiring something new, but uncovering what has always been there.\n\n### Stage 2: Cultivation\n*\"I can access this wisdom\"*\n\nThrough practice and attention, you learn to create conditions where wisdom can emerge. Like tending a garden, you prepare the soil of your consciousness.\n\n### Stage 3: Integration\n*\"I live from this wisdom\"*\n\nWisdom becomes not something you access occasionally, but the foundation from which you live. Your life becomes an expression of inner knowing.\n\n### Stage 4: Service\n*\"I share this wisdom\"*\n\nAs wisdom awakens within you, it naturally wants to serve others. You become a channel for the wisdom that flows through all life.\n\n## Obstacles to Inner Wisdom\n\n### The Busy Mind\n**Challenge**: Constant mental activity drowns out subtle wisdom\n**Solution**: Regular meditation and mindfulness practices\n\n### The Doubting Voice\n**Challenge**: \"How do I know if this is real wisdom?\"\n**Solution**: Trust the fruits - true wisdom always leads to greater peace and love\n\n### The Impatient Heart\n**Challenge**: Wanting wisdom to come on demand\n**Solution**: Cultivate patience and trust in the natural unfolding\n\n### The Comparing Mind\n**Challenge**: Thinking others have more wisdom\n**Solution**: Remember that each person's wisdom is unique and perfect for them\n\n## Daily Practices for Wisdom Awakening\n\n### Morning Invocation\nBegin each day by connecting with your inner wisdom:\n*\"I open to the wisdom that lives within me. I trust the guidance that emerges from silence. I am ready to receive what life wants to teach me today.\"*\n\n### Wisdom Journaling\nEach evening, write responses to:\n- What wisdom emerged for me today?\n- What did I learn about myself?\n- What guidance am I receiving for tomorrow?\n\n### The Pause Practice\nThroughout the day, pause before important decisions and ask:\n- What does my deepest wisdom say about this?\n- What choice would serve the highest good?\n- What feels most true and aligned?\n\n## The Paradox of Seeking\n\nThe beautiful paradox of inner wisdom is that the more you seek it, the more elusive it becomes. Yet the more you relax into your natural state of knowing, the more readily it appears.\n\nWisdom is not something you achieve - it's something you are.\nWisdom is not something you find - it's something that finds you.\nWisdom is not something you learn - it's something you remember.\n\n## Your Unique Wisdom Path\n\nJust as every flower blooms in its own way, your wisdom will express itself uniquely. Some people receive wisdom through:\n- Dreams and visions\n- Nature and beauty\n- Relationships and service\n- Art and creativity\n- Study and contemplation\n- Movement and embodiment\n\nThere is no right or wrong way. Your path is perfect for you.\n\n## The Invitation\n\nInner wisdom is not a destination but a way of being. It's not something you achieve once and possess forever, but something you cultivate and embody moment by moment.\n\nToday, you are invited to:\n- Trust the wisdom that already lives within you\n- Create space for insights to emerge\n- Listen more deeply to your inner voice\n- Act from your deepest knowing\n- Share your unique gifts with the world\n\nRemember: You are not seeking wisdom - you ARE wisdom, temporarily forgetting your true nature. The journey is simply a remembering, a coming home to who you have always been.\n\n*\"The cave you fear to enter holds the treasure you seek.\" - Joseph Campbell*\n\nYour inner cave of silence holds the greatest treasure of all - the wisdom of your own awakened heart.",
+        "media": {
+          "images": [
+            "inner_light_mandala.jpg",
+            "wisdom_tree_roots.jpg",
+            "silent_meditation.jpg"
+          ],
+          "videos": [
+            "wisdom_awakening_journey.mp4",
+            "inner_guru_meditation.mp4"
+          ],
+          "audio": [
+            "wisdom_awakening_narration.mp3",
+            "silent_meditation_guide.mp3"
+          ]
+        }
+      },
+      "query_paths": {
+        "practical": {
+          "agent_type": "seed",
+          "focus": "developing daily practices for accessing inner wisdom",
+          "sample_queries": [
+            "How can I practice connecting with my inner wisdom?",
+            "What are specific techniques for accessing intuitive guidance?",
+            "How do I create space for wisdom to emerge in my daily life?",
+            "What practices help me distinguish wisdom from mental noise?"
+          ],
+          "practice_exercises": [
+            {
+              "title": "Daily Wisdom Check-in",
+              "description": "A simple practice to connect with inner guidance",
+              "steps": [
+                "Find a quiet space and sit comfortably",
+                "Take three deep breaths to center yourself",
+                "Ask: 'What does my inner wisdom want me to know today?'",
+                "Listen without forcing or expecting anything",
+                "Notice what arises - thoughts, feelings, images, or knowing",
+                "Thank your inner wisdom and carry the guidance with you"
+              ]
+            },
+            {
+              "title": "The Sacred Pause",
+              "description": "Using moments of pause to access wisdom throughout the day",
+              "practice": "Before making any significant decision, pause for 30 seconds and ask your inner wisdom for guidance. Notice the first response that feels peaceful and true."
+            }
+          ]
+        },
+        "conceptual": {
+          "agent_type": "tree",
+          "focus": "understanding the nature and sources of inner wisdom",
+          "sample_queries": [
+            "What is the difference between knowledge and wisdom?",
+            "How does inner wisdom relate to consciousness?",
+            "What do different wisdom traditions say about inner knowing?",
+            "How can I understand the relationship between mind and wisdom?"
+          ],
+          "key_concepts": [
+            {
+              "concept": "Intuitive Intelligence",
+              "explanation": "A form of knowing that bypasses rational analysis and accesses direct understanding",
+              "connection": "This intelligence operates through the heart and body, not just the mind"
+            },
+            {
+              "concept": "The Inner Guru",
+              "explanation": "The aspect of consciousness that serves as an internal guide and teacher",
+              "connection": "This inner teacher is always available and perfectly suited to your unique path"
+            },
+            {
+              "concept": "Embodied Wisdom",
+              "explanation": "Wisdom that is not just understood mentally but lived and expressed through being",
+              "connection": "True wisdom transforms how we live, not just how we think"
+            }
+          ]
+        },
+        "reflective": {
+          "agent_type": "sky",
+          "focus": "deep contemplation on the mystery of consciousness and knowing",
+          "sample_queries": [
+            "What is the source of the wisdom within me?",
+            "How does consciousness know itself?",
+            "What is the relationship between my individual wisdom and universal wisdom?",
+            "How does awakening to inner wisdom change my understanding of reality?"
+          ],
+          "reflection_prompts": [
+            {
+              "prompt": "The Knower Behind the Known",
+              "question": "Who or what is it that knows your thoughts, feelings, and experiences? What is the nature of this knowing awareness?",
+              "guidance": "Contemplate the mysterious presence that is aware of all your experiences but is not itself an experience."
+            },
+            {
+              "prompt": "The Wisdom of Not-Knowing",
+              "question": "What if the deepest wisdom comes not from accumulating knowledge but from embracing the mystery of not-knowing?",
+              "guidance": "Explore how letting go of the need to know everything can open you to a deeper way of knowing."
+            },
+            {
+              "prompt": "The Universal and the Personal",
+              "question": "How is your individual wisdom connected to the wisdom of the cosmos? Are they separate or one?",
+              "guidance": "Contemplate the possibility that your inner wisdom is a unique expression of universal intelligence."
+            }
+          ]
+        }
+      },
+      "quiz": [
+        {
+          "id": "wisdom_vs_knowledge",
+          "type": "multiple_choice",
+          "question": "What is the primary difference between knowledge and wisdom?",
+          "options": [
+            "Knowledge is more valuable than wisdom",
+            "Knowledge is accumulated from outside, wisdom emerges from within",
+            "Wisdom is just organized knowledge",
+            "There is no real difference between them"
+          ],
+          "correct_answer": 1,
+          "explanation": "Knowledge is information we gather from external sources, while wisdom is insight that emerges from our inner depths and direct experience.",
+          "agent_specific_feedback": {
+            "seed": "Great! Now practice distinguishing between these in your daily life - notice when you're accessing stored knowledge versus inner wisdom.",
+            "tree": "Excellent understanding! This distinction is fundamental to all wisdom traditions and spiritual development.",
+            "sky": "Beautiful insight! You've touched the mystery of how consciousness knows itself through both accumulation and revelation."
+          }
+        },
+        {
+          "id": "inner_wisdom_recognition",
+          "type": "reflection",
+          "question": "Describe a time when you experienced inner wisdom - a moment when you 'just knew' something without being able to explain how you knew it.",
+          "sample_answers": [
+            "A sudden clarity about a life decision that felt absolutely right",
+            "An intuitive understanding about someone's feelings or needs",
+            "A creative insight that emerged from nowhere during quiet time",
+            "A sense of knowing what to do in a difficult situation"
+          ],
+          "guidance": "Reflect on the quality of this knowing - how it felt different from regular thinking, and how you can recognize and trust such moments.",
+          "agent_specific_feedback": {
+            "seed": "Use this memory as a reference point for recognizing inner wisdom in the future. Practice creating conditions where such knowing can emerge.",
+            "tree": "This experience shows you have direct access to wisdom beyond rational thought. Study how such knowing operates in your life.",
+            "sky": "You've touched the mystery of consciousness knowing itself. This is the doorway to deeper awakening and self-realization."
+          }
+        }
+      ],
+      "challenges": [
+        {
+          "id": "wisdom_awakening_week",
+          "title": "Seven Days of Wisdom Awakening",
+          "description": "A week-long journey to deepen your connection with inner wisdom",
+          "type": "progressive",
+          "daily_challenges": [
+            {
+              "day": 1,
+              "focus": "Silence and Listening",
+              "task": "Spend 15 minutes in complete silence, simply listening to what emerges from within",
+              "reflection": "What did you notice in the silence? What wanted to be heard?"
+            },
+            {
+              "day": 2,
+              "focus": "Sacred Questions",
+              "task": "Choose one meaningful question about your life and carry it with you all day without trying to answer it",
+              "reflection": "What insights or perspectives emerged around your question?"
+            },
+            {
+              "day": 3,
+              "focus": "Body Wisdom",
+              "task": "Before making any decision today, pause and notice what your body tells you about each option",
+              "reflection": "How does your body communicate wisdom? What did you learn to trust?"
+            },
+            {
+              "day": 4,
+              "focus": "Nature's Teaching",
+              "task": "Spend time in nature and ask what it wants to teach you about wisdom and knowing",
+              "reflection": "What wisdom did nature share? How does the natural world embody knowing?"
+            },
+            {
+              "day": 5,
+              "focus": "Dream Wisdom",
+              "task": "Before sleep, ask your inner wisdom to communicate through dreams, and record what you remember upon waking",
+              "reflection": "What messages or insights came through your dreams or the space between sleep and waking?"
+            },
+            {
+              "day": 6,
+              "focus": "Wisdom in Relationship",
+              "task": "In your interactions today, practice listening for the wisdom that wants to emerge through connection with others",
+              "reflection": "How does wisdom express itself through relationship? What did others mirror back to you?"
+            },
+            {
+              "day": 7,
+              "focus": "Integration and Gratitude",
+              "task": "Reflect on the week's journey and create a personal practice for staying connected to your inner wisdom",
+              "reflection": "How has your relationship with inner wisdom evolved? What practice will you continue?"
+            }
+          ]
+        }
+      ],
+      "tts": true,
+      "metadata": {
+        "created_by": "Akash Gurukul Curriculum Team",
+        "created_date": "2024-01-08",
+        "last_modified": "2024-01-08",
+        "version": "1.0",
+        "tags": [
+          "inner_wisdom",
+          "consciousness",
+          "moksha",
+          "awakening",
+          "intuition"
+        ],
+        "difficulty": 4
+      }
+    },
     "tree_artha_001": {
       "id": "tree_artha_001",
       "title": "Understanding Value Creation",
@@ -287,9 +974,505 @@
         ],
         "difficulty": 3
       }
+    },
+    "tree_dharma_002": {
+      "id": "tree_dharma_002",
+      "title": "Compassion in Action",
+      "level": "Tree",
+      "category": "dharma",
+      "prerequisites": [
+        "seed_dharma_001"
+      ],
+      "learning_objectives": {
+        "overall": [
+          "Understand the deeper principles of compassion",
+          "Distinguish between sympathy, empathy, and compassion",
+          "Apply compassionate action in complex situations",
+          "Develop wisdom-guided compassionate responses"
+        ],
+        "by_agent": {
+          "seed": [
+            "Practice specific compassionate actions in daily scenarios",
+            "Develop skills for active listening and supportive responses",
+            "Build habits of compassionate communication",
+            "Learn to recognize suffering and respond appropriately"
+          ],
+          "tree": [
+            "Understand the philosophical foundations of compassion",
+            "Analyze the relationship between wisdom and compassion",
+            "Comprehend how compassion transforms both giver and receiver",
+            "Explore compassion across different wisdom traditions"
+          ],
+          "sky": [
+            "Contemplate the universal nature of suffering and joy",
+            "Reflect on compassion as a path to spiritual growth",
+            "Explore the interconnectedness revealed through compassionate action",
+            "Discover compassion as a gateway to transcendence"
+          ]
+        }
+      },
+      "estimated_duration": 35,
+      "content": {
+        "text": "# Compassion in Action: The Heart of Wisdom\n\nCompassion is not merely feeling sorry for someone. It is the profound recognition of suffering coupled with the wise action to alleviate it. Like a skilled physician who not only diagnoses but also heals, true compassion combines understanding with effective action.\n\n## The Three Faces of Caring\n\n### Sympathy: Feeling For\nSympathy is when we feel sad because someone else is sad. It's like standing on the shore, watching someone struggle in the water, and feeling upset about their situation.\n\n### Empathy: Feeling With\nEmpathy is when we actually feel what the other person feels. It's like jumping into the water with them and experiencing their struggle firsthand.\n\n### Compassion: Wise Action\nCompassion is when we see their struggle, understand their pain, and then skillfully help them reach safety. It combines understanding with effective action.\n\n## The Wisdom of Compassionate Action\n\nTrue compassion requires wisdom because:\n- **Timing matters**: Knowing when to act and when to wait\n- **Method matters**: Understanding what kind of help is truly needed\n- **Boundaries matter**: Helping without enabling dependency\n- **Sustainability matters**: Acting in ways that create lasting positive change\n\n## A Story of Compassion in Action\n\nRavi noticed his classmate Meera sitting alone during lunch, looking sad. Instead of just feeling sorry for her (sympathy) or getting sad himself (empathy), Ravi chose compassion in action:\n\n1. **He observed carefully** - Was she sad, angry, or just thinking?\n2. **He approached gently** - \"Hi Meera, mind if I sit here?\"\n3. **He listened without judgment** - She shared that her grandmother was ill\n4. **He offered appropriate help** - \"Would you like me to help you catch up on the homework you missed?\"\n5. **He followed through** - He actually helped her and checked in the next day\n\n## The Ripple Effect of Compassion\n\nWhen we act with true compassion:\n- The person receiving help feels genuinely supported\n- We develop wisdom and emotional intelligence\n- Others witness and learn from our example\n- The entire community becomes more caring\n- We discover our own capacity for positive impact\n\n## Compassion Challenges\n\n### The Overwhelmed Helper\nSometimes we want to help everyone and end up helping no one effectively. Wisdom teaches us to:\n- Choose our battles wisely\n- Help in ways that match our abilities\n- Take care of ourselves so we can help others\n\n### The Misguided Helper\nSometimes our help isn't what's actually needed. Wisdom teaches us to:\n- Ask before assuming what help is needed\n- Listen more than we speak\n- Respect others' autonomy and choices\n\n### The Conditional Helper\nSometimes we help only when it's convenient or when we like the person. True compassion:\n- Extends to all beings, not just our favorites\n- Acts even when it's inconvenient\n- Doesn't expect gratitude or recognition\n\n## Your Compassion Practice\n\nCompassion is like a muscle that grows stronger with practice. Today, try:\n\n1. **Mindful Observation**: Notice when someone around you is struggling\n2. **Wise Assessment**: Ask yourself - what do they really need?\n3. **Skillful Action**: Offer help that is appropriate and sustainable\n4. **Gentle Follow-up**: Check if your help was actually helpful\n5. **Self-Compassion**: Be kind to yourself when your attempts don't work perfectly\n\nRemember: The goal isn't to fix everyone's problems, but to respond to suffering with wisdom, kindness, and appropriate action.",
+        "media": {
+          "images": [
+            "compassion_ripple_effect.jpg",
+            "helping_hands_wisdom.jpg"
+          ],
+          "videos": [
+            "compassion_story_animation.mp4"
+          ],
+          "audio": [
+            "compassion_lesson_narration.mp3"
+          ]
+        }
+      },
+      "query_paths": {
+        "practical": {
+          "agent_type": "seed",
+          "focus": "hands-on compassionate action and skill building",
+          "sample_queries": [
+            "How can I practice compassion in difficult situations?",
+            "What are specific ways to help someone who is suffering?",
+            "Can you guide me through compassionate listening?",
+            "How do I know if my help is actually helpful?"
+          ],
+          "practice_exercises": [
+            {
+              "title": "Compassionate Response Training",
+              "description": "Practice responding compassionately to different scenarios",
+              "scenarios": [
+                {
+                  "situation": "A friend is crying because they failed a test",
+                  "poor_response": "Don't worry, it's just a test",
+                  "good_response": "I can see you're really upset. Would you like to talk about it or would you prefer some quiet company?",
+                  "explanation": "Acknowledges their feelings and offers choice in how to receive support"
+                },
+                {
+                  "situation": "Someone is angry and shouting at you",
+                  "poor_response": "Calm down! You're being ridiculous!",
+                  "good_response": "I can see you're really frustrated. Help me understand what's bothering you.",
+                  "explanation": "Validates their emotion while seeking to understand the root cause"
+                }
+              ]
+            },
+            {
+              "title": "Daily Compassion Challenge",
+              "description": "Practice one act of compassion each day for a week",
+              "daily_practices": [
+                "Listen fully to someone without planning your response",
+                "Help someone with a task they're struggling with",
+                "Offer comfort to someone who is sad or stressed",
+                "Show patience with someone who is being difficult",
+                "Practice self-compassion when you make a mistake",
+                "Help someone learn something new",
+                "Show appreciation for someone's efforts"
+              ]
+            }
+          ]
+        },
+        "conceptual": {
+          "agent_type": "tree",
+          "focus": "understanding the wisdom principles behind compassion",
+          "sample_queries": [
+            "What's the difference between compassion and enabling?",
+            "How does wisdom guide compassionate action?",
+            "Why is compassion considered a form of intelligence?",
+            "How does compassion benefit the one who gives it?"
+          ],
+          "key_concepts": [
+            {
+              "concept": "Wise Compassion",
+              "explanation": "Compassion guided by understanding of what truly helps versus what merely feels good to give",
+              "connection": "True help requires wisdom to discern what will create lasting positive change"
+            },
+            {
+              "concept": "Compassionate Boundaries",
+              "explanation": "Setting limits that protect both helper and helped from unhealthy dynamics",
+              "connection": "Boundaries are not walls but guidelines that make sustainable compassion possible"
+            },
+            {
+              "concept": "Universal Compassion",
+              "explanation": "Extending compassion beyond our circle of preference to all beings",
+              "connection": "True compassion recognizes the fundamental equality of all beings' capacity for suffering and joy"
+            },
+            {
+              "concept": "Compassionate Detachment",
+              "explanation": "Helping without attachment to outcomes or recognition",
+              "connection": "Freedom from ego allows compassion to flow naturally without expectation"
+            }
+          ]
+        },
+        "reflective": {
+          "agent_type": "sky",
+          "focus": "deep contemplation on the spiritual dimensions of compassion",
+          "sample_queries": [
+            "How does compassion connect me to the divine?",
+            "What does compassion reveal about the nature of existence?",
+            "How does practicing compassion transform my soul?",
+            "What is the relationship between compassion and enlightenment?"
+          ],
+          "reflection_prompts": [
+            {
+              "prompt": "The Mirror of Compassion",
+              "question": "When you act with true compassion, what do you discover about your own nature? What does this reveal about the nature of all beings?",
+              "guidance": "Contemplate how compassion dissolves the illusion of separation and reveals our fundamental interconnectedness."
+            },
+            {
+              "prompt": "The Ocean of Suffering and Joy",
+              "question": "If all beings share the same capacity for suffering and joy, what does this mean about the boundaries between 'self' and 'other'?",
+              "guidance": "Reflect on how compassion arises naturally when we recognize our shared essence."
+            },
+            {
+              "prompt": "The Alchemy of Compassion",
+              "question": "How does the act of compassion transform both the giver and receiver? What is created in the space between them?",
+              "guidance": "Consider compassion as a sacred force that transmutes suffering into wisdom and connection."
+            },
+            {
+              "prompt": "The Pathless Path",
+              "question": "If compassion is both the path and the destination, what does this mean for your spiritual journey?",
+              "guidance": "Contemplate how every act of compassion is both practice and realization."
+            }
+          ]
+        }
+      },
+      "quiz": [
+        {
+          "id": "compassion_understanding",
+          "type": "multiple_choice",
+          "question": "What is the key difference between empathy and compassion?",
+          "options": [
+            "Empathy is feeling with someone, compassion is taking wise action to help",
+            "Empathy is stronger than compassion",
+            "Compassion is just another word for empathy",
+            "Empathy requires more effort than compassion"
+          ],
+          "correct_answer": 0,
+          "explanation": "While empathy involves feeling what another person feels, compassion combines understanding with skillful action to alleviate suffering.",
+          "agent_specific_feedback": {
+            "seed": "Great! Now practice this by identifying one situation today where you can move from empathy to compassionate action.",
+            "tree": "Excellent understanding! This distinction is crucial for developing wisdom-guided responses to suffering.",
+            "sky": "Beautiful insight! This understanding opens the door to seeing compassion as a transformative force in the universe."
+          }
+        },
+        {
+          "id": "wise_helping",
+          "type": "scenario",
+          "question": "Your friend keeps asking you to do their homework for them because they say they're 'too stressed.' What would be the most compassionate response?",
+          "options": [
+            "Do their homework to help them feel better",
+            "Refuse to help because they need to learn responsibility",
+            "Offer to study together and teach them stress management techniques",
+            "Tell them to ask someone else"
+          ],
+          "correct_answer": 2,
+          "explanation": "True compassion helps people develop their own capabilities rather than creating dependency. Offering to study together addresses both the immediate need and builds long-term skills.",
+          "agent_specific_feedback": {
+            "seed": "Perfect! This approach gives you specific ways to help while building their skills. Try role-playing this conversation.",
+            "tree": "Excellent wisdom! You've identified the difference between enabling and empowering - a key principle of wise compassion.",
+            "sky": "Profound understanding! You've seen how true compassion serves the highest good of all involved, even when it's more challenging."
+          }
+        },
+        {
+          "id": "compassion_reflection",
+          "type": "reflection",
+          "question": "Describe a time when someone showed you true compassion. How did it feel different from just sympathy or pity?",
+          "sample_answers": [
+            "They listened without trying to fix everything immediately",
+            "They helped me find my own strength rather than doing everything for me",
+            "They stayed present with my pain without trying to make it go away quickly",
+            "They offered practical help while respecting my dignity"
+          ],
+          "guidance": "Reflect on how true compassion honors both the reality of suffering and the inherent strength and dignity of the person experiencing it.",
+          "agent_specific_feedback": {
+            "seed": "Use this memory as a template for how you can offer compassion to others in practical ways.",
+            "tree": "This reflection helps you understand the principles that make compassion truly helpful rather than just well-intentioned.",
+            "sky": "This experience reveals the sacred nature of compassionate presence - how it creates space for healing and growth."
+          }
+        }
+      ],
+      "challenges": [
+        {
+          "id": "compassion_week",
+          "title": "Seven Days of Compassion",
+          "description": "Practice a different aspect of compassion each day for a week",
+          "type": "progressive",
+          "daily_challenges": [
+            {
+              "day": 1,
+              "focus": "Compassionate Listening",
+              "task": "Have one conversation today where you listen completely without planning your response",
+              "reflection": "How did it feel to listen without agenda? What did you notice?"
+            },
+            {
+              "day": 2,
+              "focus": "Self-Compassion",
+              "task": "When you make a mistake today, speak to yourself as you would to a good friend",
+              "reflection": "How does self-compassion change your relationship with your own imperfections?"
+            },
+            {
+              "day": 3,
+              "focus": "Difficult Person Compassion",
+              "task": "Show patience and understanding to someone who is being difficult",
+              "reflection": "What might be causing their difficult behavior? How did compassion change the interaction?"
+            },
+            {
+              "day": 4,
+              "focus": "Anonymous Compassion",
+              "task": "Do something kind for someone without them knowing it was you",
+              "reflection": "How does helping without recognition feel different from helping when others know?"
+            },
+            {
+              "day": 5,
+              "focus": "Wise Boundaries",
+              "task": "Practice saying no to a request in a compassionate way that serves everyone's highest good",
+              "reflection": "How can boundaries be an expression of compassion rather than selfishness?"
+            },
+            {
+              "day": 6,
+              "focus": "Compassionate Truth",
+              "task": "Share a difficult truth with someone in a way that is both honest and kind",
+              "reflection": "How can truth-telling be an act of compassion?"
+            },
+            {
+              "day": 7,
+              "focus": "Universal Compassion",
+              "task": "Send loving thoughts to someone you disagree with or find difficult",
+              "reflection": "What happens when you extend compassion beyond your circle of preference?"
+            }
+          ]
+        }
+      ],
+      "tts": true,
+      "metadata": {
+        "created_by": "Akash Gurukul Curriculum Team",
+        "created_date": "2024-01-08",
+        "last_modified": "2024-01-08",
+        "version": "1.0",
+        "tags": [
+          "compassion",
+          "wisdom",
+          "dharma",
+          "emotional_intelligence",
+          "relationships"
+        ],
+        "difficulty": 3
+      }
     }
   },
   "learning_paths": {
+    "foundation": {
+      "Foundation": [
+        {
+          "id": "foundation_000_sankalpa",
+          "title": "Sankalpa: The Sacred Vow of Learning",
+          "level": "Foundation",
+          "category": "foundation",
+          "prerequisites": [],
+          "learning_objectives": {
+            "overall": [
+              "Understand the sacred nature of learning in the Gurukul tradition",
+              "Make a personal commitment to authentic learning",
+              "Learn the principles that guide the Akash Gurukul experience",
+              "Establish the right mindset for transformative education"
+            ],
+            "by_agent": {
+              "seed": [
+                "Practice the daily rituals of mindful learning",
+                "Develop habits of respect for knowledge and teachers",
+                "Learn to approach each lesson with fresh curiosity",
+                "Build discipline in study and reflection practices"
+              ],
+              "tree": [
+                "Understand the philosophical foundations of Gurukul education",
+                "Comprehend the relationship between student, teacher, and knowledge",
+                "Grasp the principles of holistic learning and character development",
+                "Explore the wisdom traditions that inform our approach"
+              ],
+              "sky": [
+                "Contemplate the sacred nature of knowledge transmission",
+                "Reflect on learning as a spiritual journey of self-discovery",
+                "Connect with the lineage of seekers and sages",
+                "Discover your unique purpose within the cosmic order"
+              ]
+            }
+          },
+          "estimated_duration": 25,
+          "content": {
+            "text": "# Sankalpa: The Sacred Vow of Learning\n\n*\"Gurur Brahma Gurur Vishnu Gurur Devo Maheshwarah\nGuru Saakshaat Para Brahma Tasmai Shri Gurave Namah\"*\n\n*The Guru is Brahma (the creator), the Guru is Vishnu (the sustainer), the Guru is Shiva (the transformer). The Guru is the very embodiment of the Supreme Reality. Salutations to that revered Guru.*\n\n## Welcome to Akash Gurukul\n\nYou are about to embark on a sacred journey of learning that has been traveled by countless seekers for thousands of years. In the ancient tradition of the Gurukul, learning is not merely the acquisition of information, but the transformation of the entire being.\n\n## What is Sankalpa?\n\nSankalpa (संकल्प) is a Sanskrit word that means \"sacred vow\" or \"heartfelt intention.\" It is more than a goal or wish - it is a deep commitment that aligns your entire being with your highest purpose.\n\nIn the context of learning, your Sankalpa is your sacred promise to:\n- Approach knowledge with reverence and humility\n- Remain open to transformation\n- Honor the wisdom of teachers and traditions\n- Use your learning for the benefit of all beings\n\n## The Three Pillars of Gurukul Learning\n\n### 1. Shraddha (श्रद्धा) - Reverent Faith\nShraddha is not blind belief, but intelligent faith born of understanding. It is the recognition that:\n- Knowledge is sacred and transformative\n- Every lesson contains seeds of wisdom\n- The learning process itself is divine\n- Challenges are opportunities for growth\n\n### 2. Seva (सेवा) - Selfless Service\nIn the Gurukul tradition, learning and service are inseparable. True knowledge naturally expresses itself as:\n- Service to teachers and fellow students\n- Sharing wisdom with those who seek it\n- Using skills for the welfare of society\n- Protecting and preserving knowledge for future generations\n\n### 3. Sadhana (साधना) - Dedicated Practice\nSadhana is the disciplined practice that transforms knowledge into wisdom:\n- Regular study and reflection\n- Application of learning in daily life\n- Continuous self-examination and growth\n- Patience with the gradual process of transformation\n\n## Your Three Guides: Seed, Tree, and Sky\n\nIn Akash Gurukul, you will learn from three types of teachers, each representing a different aspect of wisdom:\n\n### 🌱 Seed Agent - The Practice Mentor\n*\"Show me and I will learn\"*\n\nThe Seed Agent is your guide for practical application. Like a gardener who knows exactly when and how to plant, water, and tend to growing things, the Seed Agent helps you:\n- Practice skills through hands-on exercises\n- Build good learning habits\n- Apply knowledge in real-world situations\n- Develop confidence through guided experience\n\n### 🌳 Tree Agent - The Wisdom Teacher\n*\"Help me understand and I will grow\"*\n\nThe Tree Agent is your guide for deep understanding. Like an ancient tree with deep roots and broad branches, the Tree Agent helps you:\n- Understand the principles behind what you're learning\n- See connections between different areas of knowledge\n- Develop conceptual frameworks for thinking\n- Cultivate wisdom that endures through time\n\n### 🌌 Sky Agent - The Philosophical Guru\n*\"Inspire me to discover and I will transform\"*\n\nThe Sky Agent is your guide for spiritual insight. Like the infinite sky that embraces all, the Sky Agent helps you:\n- Reflect on the deeper meaning of your learning\n- Connect knowledge to your life's purpose\n- Explore philosophical and spiritual dimensions\n- Discover your unique path of growth and service\n\n## The Gurukul Principles\n\n### Principle 1: Every Question is Sacred\nThere are no stupid questions in the Gurukul. Every sincere inquiry is honored as a step toward understanding.\n\n### Principle 2: Learning is Transformation\nWe don't just acquire knowledge; we allow knowledge to transform us. Be prepared to change and grow.\n\n### Principle 3: Wisdom Serves All\nTrue learning benefits not just the individual but the entire community. Share your insights generously.\n\n### Principle 4: The Journey is the Destination\nEnjoy the process of learning itself. Each moment of understanding is a gift to be savored.\n\n### Principle 5: Respect the Lineage\nHonor the countless teachers and students who have preserved and transmitted this wisdom through the ages.\n\n## Your Sankalpa Ceremony\n\nNow, it is time to make your sacred vow. Place your hand on your heart and speak these words with sincere intention:\n\n*\"I, [your name], enter this Gurukul with reverence and humility.\nI vow to approach each lesson with an open heart and curious mind.\nI promise to honor my teachers - Seed, Tree, and Sky - and learn from each with respect.\nI commit to using my knowledge for the benefit of all beings.\nI embrace the journey of transformation that lies ahead.\nMay my learning be a service to the divine wisdom that flows through all things.\nOm Shanti Shanti Shanti.\"*\n\n## Beginning Your Journey\n\nWith your Sankalpa made, you are now ready to begin your learning journey. Remember:\n\n- **Start with Beginner's Mind**: Approach each lesson as if encountering it for the first time\n- **Practice Patience**: Deep learning takes time. Trust the process\n- **Stay Curious**: Let wonder and questioning guide your exploration\n- **Embrace Challenges**: Difficulties are opportunities for growth\n- **Celebrate Progress**: Acknowledge every step forward, no matter how small\n\nWelcome to Akash Gurukul. Your transformation begins now.",
+            "media": {
+              "images": [
+                "gurukul_ceremony.jpg",
+                "three_agents_mandala.jpg",
+                "sankalpa_ritual.jpg"
+              ],
+              "videos": [
+                "sankalpa_ceremony.mp4",
+                "gurukul_introduction.mp4"
+              ],
+              "audio": [
+                "sankalpa_chant.mp3",
+                "gurukul_welcome.mp3"
+              ]
+            }
+          },
+          "query_paths": {
+            "practical": {
+              "agent_type": "seed",
+              "focus": "establishing daily learning practices and rituals",
+              "sample_queries": [
+                "How do I start my daily learning practice?",
+                "What rituals help me stay focused while studying?",
+                "How can I show respect to my teachers and learning materials?",
+                "What are practical ways to serve others through my learning?"
+              ],
+              "practice_exercises": [
+                {
+                  "title": "Daily Learning Ritual",
+                  "description": "Establish a sacred beginning and ending to your study sessions",
+                  "steps": [
+                    "Begin with three deep breaths and a moment of gratitude",
+                    "Set a clear intention for your learning session",
+                    "Study with full attention and respect for the material",
+                    "End with reflection on what you've learned",
+                    "Consider how you can apply or share this knowledge"
+                  ]
+                },
+                {
+                  "title": "Gratitude Practice",
+                  "description": "Cultivate appreciation for the opportunity to learn",
+                  "daily_practice": "Each day, identify three things you're grateful for in your learning journey - a teacher, a concept that clicked, a challenge that helped you grow"
+                }
+              ]
+            },
+            "conceptual": {
+              "agent_type": "tree",
+              "focus": "understanding the philosophy and principles of Gurukul education",
+              "sample_queries": [
+                "What makes Gurukul education different from other approaches?",
+                "Why is the relationship between student and teacher considered sacred?",
+                "How does learning transform both knowledge and the learner?",
+                "What is the connection between wisdom and service?"
+              ],
+              "key_concepts": [
+                {
+                  "concept": "Guru-Shishya Parampara",
+                  "explanation": "The sacred tradition of knowledge transmission from teacher to student",
+                  "connection": "This creates an unbroken lineage of wisdom that preserves and evolves knowledge across generations"
+                },
+                {
+                  "concept": "Holistic Education",
+                  "explanation": "Learning that develops the whole person - mind, body, heart, and spirit",
+                  "connection": "True education transforms character and consciousness, not just intellectual capacity"
+                },
+                {
+                  "concept": "Knowledge as Divine",
+                  "explanation": "The understanding that all knowledge is sacred and connects us to universal truth",
+                  "connection": "This perspective transforms learning from acquisition to revelation"
+                }
+              ]
+            },
+            "reflective": {
+              "agent_type": "sky",
+              "focus": "contemplating the spiritual dimensions of learning and knowledge",
+              "sample_queries": [
+                "What is my deeper purpose in seeking knowledge?",
+                "How does learning connect me to the divine?",
+                "What does it mean to be part of an ancient lineage of seekers?",
+                "How can my learning serve the evolution of consciousness?"
+              ],
+              "reflection_prompts": [
+                {
+                  "prompt": "The Sacred Fire of Knowledge",
+                  "question": "Imagine knowledge as a sacred fire that has been passed from teacher to student for thousands of years. What does it mean to receive this flame? What is your responsibility as its keeper?",
+                  "guidance": "Contemplate your role in the eternal chain of learning and teaching."
+                },
+                {
+                  "prompt": "The Mirror of Learning",
+                  "question": "How does the process of learning reveal your true nature? What does your curiosity and desire to grow tell you about your essential self?",
+                  "guidance": "Reflect on learning as a path of self-discovery and spiritual awakening."
+                },
+                {
+                  "prompt": "The Cosmic Classroom",
+                  "question": "If the entire universe is your classroom and every experience is a lesson, what is the curriculum of your life? What is existence trying to teach you?",
+                  "guidance": "Consider how formal learning fits into the larger education of the soul."
+                }
+              ]
+            }
+          },
+          "quiz": [
+            {
+              "id": "sankalpa_meaning",
+              "type": "multiple_choice",
+              "question": "What does Sankalpa mean in the context of learning?",
+              "options": [
+                "A study schedule or plan",
+                "A sacred vow or heartfelt intention for learning",
+                "A type of meditation practice",
+                "A graduation ceremony"
+              ],
+              "correct_answer": 1,
+              "explanation": "Sankalpa is a sacred vow or heartfelt intention that aligns your entire being with your highest purpose in learning.",
+              "agent_specific_feedback": {
+                "seed": "Perfect! Now practice making your own Sankalpa before each study session.",
+                "tree": "Excellent understanding! This concept is central to transformative education.",
+                "sky": "Beautiful insight! You've grasped the sacred nature of intentional learning."
+              }
+            },
+            {
+              "id": "three_pillars",
+              "type": "multiple_choice",
+              "question": "Which of the following is NOT one of the three pillars of Gurukul learning?",
+              "options": [
+                "Shraddha (Reverent Faith)",
+                "Seva (Selfless Service)",
+                "Sadhana (Dedicated Practice)",
+                "Samsara (Worldly Achievement)"
+              ],
+              "correct_answer": 3,
+              "explanation": "The three pillars are Shraddha (reverent faith), Seva (selfless service), and Sadhana (dedicated practice). Samsara refers to the cycle of worldly existence, not a pillar of learning.",
+              "agent_specific_feedback": {
+                "seed": "Great! Now practice incorporating these three pillars into your daily learning routine.",
+                "tree": "Excellent! You understand the foundational principles that guide authentic learning.",
+                "sky": "Perfect insight! You've recognized the spiritual foundations that elevate learning beyond mere information gathering."
+              }
+            },
+            {
+              "id": "personal_sankalpa",
+              "type": "reflection",
+              "question": "Write your personal Sankalpa for your learning journey. What sacred intention will guide your studies?",
+              "sample_answers": [
+                "I commit to learning with humility and using my knowledge to serve others",
+                "I vow to approach each lesson with curiosity and respect for the wisdom it contains",
+                "I promise to honor my teachers and share what I learn with those who seek knowledge",
+                "I dedicate my learning to the betterment of myself and all beings"
+              ],
+              "guidance": "Your Sankalpa should be personal, meaningful, and connect your learning to your highest values and aspirations.",
+              "agent_specific_feedback": {
+                "seed": "Beautiful! Keep this Sankalpa visible and recite it before each study session.",
+                "tree": "Wonderful! Your Sankalpa shows deep understanding of learning as transformation.",
+                "sky": "Profound! Your intention reveals the sacred nature of your learning journey."
+              }
+            }
+          ],
+          "tts": true,
+          "metadata": {
+            "created_by": "Akash Gurukul Curriculum Team",
+            "created_date": "2024-01-08",
+            "last_modified": "2024-01-08",
+            "version": "1.0",
+            "tags": [
+              "foundation",
+              "sankalpa",
+              "gurukul",
+              "sacred_learning",
+              "intention"
+            ],
+            "difficulty": 1
+          }
+        }
+      ]
+    },
     "dharma": {
       "Seed": [
         {
@@ -485,7 +1668,292 @@
           }
         }
       ],
-      "Tree": [],
+      "Tree": [
+        {
+          "id": "tree_dharma_002",
+          "title": "Compassion in Action",
+          "level": "Tree",
+          "category": "dharma",
+          "prerequisites": [
+            "seed_dharma_001"
+          ],
+          "learning_objectives": {
+            "overall": [
+              "Understand the deeper principles of compassion",
+              "Distinguish between sympathy, empathy, and compassion",
+              "Apply compassionate action in complex situations",
+              "Develop wisdom-guided compassionate responses"
+            ],
+            "by_agent": {
+              "seed": [
+                "Practice specific compassionate actions in daily scenarios",
+                "Develop skills for active listening and supportive responses",
+                "Build habits of compassionate communication",
+                "Learn to recognize suffering and respond appropriately"
+              ],
+              "tree": [
+                "Understand the philosophical foundations of compassion",
+                "Analyze the relationship between wisdom and compassion",
+                "Comprehend how compassion transforms both giver and receiver",
+                "Explore compassion across different wisdom traditions"
+              ],
+              "sky": [
+                "Contemplate the universal nature of suffering and joy",
+                "Reflect on compassion as a path to spiritual growth",
+                "Explore the interconnectedness revealed through compassionate action",
+                "Discover compassion as a gateway to transcendence"
+              ]
+            }
+          },
+          "estimated_duration": 35,
+          "content": {
+            "text": "# Compassion in Action: The Heart of Wisdom\n\nCompassion is not merely feeling sorry for someone. It is the profound recognition of suffering coupled with the wise action to alleviate it. Like a skilled physician who not only diagnoses but also heals, true compassion combines understanding with effective action.\n\n## The Three Faces of Caring\n\n### Sympathy: Feeling For\nSympathy is when we feel sad because someone else is sad. It's like standing on the shore, watching someone struggle in the water, and feeling upset about their situation.\n\n### Empathy: Feeling With\nEmpathy is when we actually feel what the other person feels. It's like jumping into the water with them and experiencing their struggle firsthand.\n\n### Compassion: Wise Action\nCompassion is when we see their struggle, understand their pain, and then skillfully help them reach safety. It combines understanding with effective action.\n\n## The Wisdom of Compassionate Action\n\nTrue compassion requires wisdom because:\n- **Timing matters**: Knowing when to act and when to wait\n- **Method matters**: Understanding what kind of help is truly needed\n- **Boundaries matter**: Helping without enabling dependency\n- **Sustainability matters**: Acting in ways that create lasting positive change\n\n## A Story of Compassion in Action\n\nRavi noticed his classmate Meera sitting alone during lunch, looking sad. Instead of just feeling sorry for her (sympathy) or getting sad himself (empathy), Ravi chose compassion in action:\n\n1. **He observed carefully** - Was she sad, angry, or just thinking?\n2. **He approached gently** - \"Hi Meera, mind if I sit here?\"\n3. **He listened without judgment** - She shared that her grandmother was ill\n4. **He offered appropriate help** - \"Would you like me to help you catch up on the homework you missed?\"\n5. **He followed through** - He actually helped her and checked in the next day\n\n## The Ripple Effect of Compassion\n\nWhen we act with true compassion:\n- The person receiving help feels genuinely supported\n- We develop wisdom and emotional intelligence\n- Others witness and learn from our example\n- The entire community becomes more caring\n- We discover our own capacity for positive impact\n\n## Compassion Challenges\n\n### The Overwhelmed Helper\nSometimes we want to help everyone and end up helping no one effectively. Wisdom teaches us to:\n- Choose our battles wisely\n- Help in ways that match our abilities\n- Take care of ourselves so we can help others\n\n### The Misguided Helper\nSometimes our help isn't what's actually needed. Wisdom teaches us to:\n- Ask before assuming what help is needed\n- Listen more than we speak\n- Respect others' autonomy and choices\n\n### The Conditional Helper\nSometimes we help only when it's convenient or when we like the person. True compassion:\n- Extends to all beings, not just our favorites\n- Acts even when it's inconvenient\n- Doesn't expect gratitude or recognition\n\n## Your Compassion Practice\n\nCompassion is like a muscle that grows stronger with practice. Today, try:\n\n1. **Mindful Observation**: Notice when someone around you is struggling\n2. **Wise Assessment**: Ask yourself - what do they really need?\n3. **Skillful Action**: Offer help that is appropriate and sustainable\n4. **Gentle Follow-up**: Check if your help was actually helpful\n5. **Self-Compassion**: Be kind to yourself when your attempts don't work perfectly\n\nRemember: The goal isn't to fix everyone's problems, but to respond to suffering with wisdom, kindness, and appropriate action.",
+            "media": {
+              "images": [
+                "compassion_ripple_effect.jpg",
+                "helping_hands_wisdom.jpg"
+              ],
+              "videos": [
+                "compassion_story_animation.mp4"
+              ],
+              "audio": [
+                "compassion_lesson_narration.mp3"
+              ]
+            }
+          },
+          "query_paths": {
+            "practical": {
+              "agent_type": "seed",
+              "focus": "hands-on compassionate action and skill building",
+              "sample_queries": [
+                "How can I practice compassion in difficult situations?",
+                "What are specific ways to help someone who is suffering?",
+                "Can you guide me through compassionate listening?",
+                "How do I know if my help is actually helpful?"
+              ],
+              "practice_exercises": [
+                {
+                  "title": "Compassionate Response Training",
+                  "description": "Practice responding compassionately to different scenarios",
+                  "scenarios": [
+                    {
+                      "situation": "A friend is crying because they failed a test",
+                      "poor_response": "Don't worry, it's just a test",
+                      "good_response": "I can see you're really upset. Would you like to talk about it or would you prefer some quiet company?",
+                      "explanation": "Acknowledges their feelings and offers choice in how to receive support"
+                    },
+                    {
+                      "situation": "Someone is angry and shouting at you",
+                      "poor_response": "Calm down! You're being ridiculous!",
+                      "good_response": "I can see you're really frustrated. Help me understand what's bothering you.",
+                      "explanation": "Validates their emotion while seeking to understand the root cause"
+                    }
+                  ]
+                },
+                {
+                  "title": "Daily Compassion Challenge",
+                  "description": "Practice one act of compassion each day for a week",
+                  "daily_practices": [
+                    "Listen fully to someone without planning your response",
+                    "Help someone with a task they're struggling with",
+                    "Offer comfort to someone who is sad or stressed",
+                    "Show patience with someone who is being difficult",
+                    "Practice self-compassion when you make a mistake",
+                    "Help someone learn something new",
+                    "Show appreciation for someone's efforts"
+                  ]
+                }
+              ]
+            },
+            "conceptual": {
+              "agent_type": "tree",
+              "focus": "understanding the wisdom principles behind compassion",
+              "sample_queries": [
+                "What's the difference between compassion and enabling?",
+                "How does wisdom guide compassionate action?",
+                "Why is compassion considered a form of intelligence?",
+                "How does compassion benefit the one who gives it?"
+              ],
+              "key_concepts": [
+                {
+                  "concept": "Wise Compassion",
+                  "explanation": "Compassion guided by understanding of what truly helps versus what merely feels good to give",
+                  "connection": "True help requires wisdom to discern what will create lasting positive change"
+                },
+                {
+                  "concept": "Compassionate Boundaries",
+                  "explanation": "Setting limits that protect both helper and helped from unhealthy dynamics",
+                  "connection": "Boundaries are not walls but guidelines that make sustainable compassion possible"
+                },
+                {
+                  "concept": "Universal Compassion",
+                  "explanation": "Extending compassion beyond our circle of preference to all beings",
+                  "connection": "True compassion recognizes the fundamental equality of all beings' capacity for suffering and joy"
+                },
+                {
+                  "concept": "Compassionate Detachment",
+                  "explanation": "Helping without attachment to outcomes or recognition",
+                  "connection": "Freedom from ego allows compassion to flow naturally without expectation"
+                }
+              ]
+            },
+            "reflective": {
+              "agent_type": "sky",
+              "focus": "deep contemplation on the spiritual dimensions of compassion",
+              "sample_queries": [
+                "How does compassion connect me to the divine?",
+                "What does compassion reveal about the nature of existence?",
+                "How does practicing compassion transform my soul?",
+                "What is the relationship between compassion and enlightenment?"
+              ],
+              "reflection_prompts": [
+                {
+                  "prompt": "The Mirror of Compassion",
+                  "question": "When you act with true compassion, what do you discover about your own nature? What does this reveal about the nature of all beings?",
+                  "guidance": "Contemplate how compassion dissolves the illusion of separation and reveals our fundamental interconnectedness."
+                },
+                {
+                  "prompt": "The Ocean of Suffering and Joy",
+                  "question": "If all beings share the same capacity for suffering and joy, what does this mean about the boundaries between 'self' and 'other'?",
+                  "guidance": "Reflect on how compassion arises naturally when we recognize our shared essence."
+                },
+                {
+                  "prompt": "The Alchemy of Compassion",
+                  "question": "How does the act of compassion transform both the giver and receiver? What is created in the space between them?",
+                  "guidance": "Consider compassion as a sacred force that transmutes suffering into wisdom and connection."
+                },
+                {
+                  "prompt": "The Pathless Path",
+                  "question": "If compassion is both the path and the destination, what does this mean for your spiritual journey?",
+                  "guidance": "Contemplate how every act of compassion is both practice and realization."
+                }
+              ]
+            }
+          },
+          "quiz": [
+            {
+              "id": "compassion_understanding",
+              "type": "multiple_choice",
+              "question": "What is the key difference between empathy and compassion?",
+              "options": [
+                "Empathy is feeling with someone, compassion is taking wise action to help",
+                "Empathy is stronger than compassion",
+                "Compassion is just another word for empathy",
+                "Empathy requires more effort than compassion"
+              ],
+              "correct_answer": 0,
+              "explanation": "While empathy involves feeling what another person feels, compassion combines understanding with skillful action to alleviate suffering.",
+              "agent_specific_feedback": {
+                "seed": "Great! Now practice this by identifying one situation today where you can move from empathy to compassionate action.",
+                "tree": "Excellent understanding! This distinction is crucial for developing wisdom-guided responses to suffering.",
+                "sky": "Beautiful insight! This understanding opens the door to seeing compassion as a transformative force in the universe."
+              }
+            },
+            {
+              "id": "wise_helping",
+              "type": "scenario",
+              "question": "Your friend keeps asking you to do their homework for them because they say they're 'too stressed.' What would be the most compassionate response?",
+              "options": [
+                "Do their homework to help them feel better",
+                "Refuse to help because they need to learn responsibility",
+                "Offer to study together and teach them stress management techniques",
+                "Tell them to ask someone else"
+              ],
+              "correct_answer": 2,
+              "explanation": "True compassion helps people develop their own capabilities rather than creating dependency. Offering to study together addresses both the immediate need and builds long-term skills.",
+              "agent_specific_feedback": {
+                "seed": "Perfect! This approach gives you specific ways to help while building their skills. Try role-playing this conversation.",
+                "tree": "Excellent wisdom! You've identified the difference between enabling and empowering - a key principle of wise compassion.",
+                "sky": "Profound understanding! You've seen how true compassion serves the highest good of all involved, even when it's more challenging."
+              }
+            },
+            {
+              "id": "compassion_reflection",
+              "type": "reflection",
+              "question": "Describe a time when someone showed you true compassion. How did it feel different from just sympathy or pity?",
+              "sample_answers": [
+                "They listened without trying to fix everything immediately",
+                "They helped me find my own strength rather than doing everything for me",
+                "They stayed present with my pain without trying to make it go away quickly",
+                "They offered practical help while respecting my dignity"
+              ],
+              "guidance": "Reflect on how true compassion honors both the reality of suffering and the inherent strength and dignity of the person experiencing it.",
+              "agent_specific_feedback": {
+                "seed": "Use this memory as a template for how you can offer compassion to others in practical ways.",
+                "tree": "This reflection helps you understand the principles that make compassion truly helpful rather than just well-intentioned.",
+                "sky": "This experience reveals the sacred nature of compassionate presence - how it creates space for healing and growth."
+              }
+            }
+          ],
+          "challenges": [
+            {
+              "id": "compassion_week",
+              "title": "Seven Days of Compassion",
+              "description": "Practice a different aspect of compassion each day for a week",
+              "type": "progressive",
+              "daily_challenges": [
+                {
+                  "day": 1,
+                  "focus": "Compassionate Listening",
+                  "task": "Have one conversation today where you listen completely without planning your response",
+                  "reflection": "How did it feel to listen without agenda? What did you notice?"
+                },
+                {
+                  "day": 2,
+                  "focus": "Self-Compassion",
+                  "task": "When you make a mistake today, speak to yourself as you would to a good friend",
+                  "reflection": "How does self-compassion change your relationship with your own imperfections?"
+                },
+                {
+                  "day": 3,
+                  "focus": "Difficult Person Compassion",
+                  "task": "Show patience and understanding to someone who is being difficult",
+                  "reflection": "What might be causing their difficult behavior? How did compassion change the interaction?"
+                },
+                {
+                  "day": 4,
+                  "focus": "Anonymous Compassion",
+                  "task": "Do something kind for someone without them knowing it was you",
+                  "reflection": "How does helping without recognition feel different from helping when others know?"
+                },
+                {
+                  "day": 5,
+                  "focus": "Wise Boundaries",
+                  "task": "Practice saying no to a request in a compassionate way that serves everyone's highest good",
+                  "reflection": "How can boundaries be an expression of compassion rather than selfishness?"
+                },
+                {
+                  "day": 6,
+                  "focus": "Compassionate Truth",
+                  "task": "Share a difficult truth with someone in a way that is both honest and kind",
+                  "reflection": "How can truth-telling be an act of compassion?"
+                },
+                {
+                  "day": 7,
+                  "focus": "Universal Compassion",
+                  "task": "Send loving thoughts to someone you disagree with or find difficult",
+                  "reflection": "What happens when you extend compassion beyond your circle of preference?"
+                }
+              ]
+            }
+          ],
+          "tts": true,
+          "metadata": {
+            "created_by": "Akash Gurukul Curriculum Team",
+            "created_date": "2024-01-08",
+            "last_modified": "2024-01-08",
+            "version": "1.0",
+            "tags": [
+              "compassion",
+              "wisdom",
+              "dharma",
+              "emotional_intelligence",
+              "relationships"
+            ],
+            "difficulty": 3
+          }
+        }
+      ],
       "Sky": []
     },
     "artha": {
@@ -591,19 +2059,500 @@
       "Sky": []
     },
     "kama": {
-      "Seed": [],
+      "Seed": [
+        {
+          "id": "seed_kama_001",
+          "title": "Joyful Living Practices",
+          "level": "Seed",
+          "category": "kama",
+          "prerequisites": [
+            "foundation_000_sankalpa"
+          ],
+          "learning_objectives": {
+            "overall": [
+              "Discover practical ways to cultivate joy in daily life",
+              "Learn to distinguish between pleasure and true fulfillment",
+              "Develop healthy relationships with desires and enjoyment",
+              "Create sustainable practices for well-being and happiness"
+            ],
+            "by_agent": {
+              "seed": [
+                "Practice specific techniques for generating joy and positivity",
+                "Develop daily habits that support emotional well-being",
+                "Learn practical skills for managing stress and cultivating peace",
+                "Build routines that nourish body, mind, and spirit"
+              ],
+              "tree": [
+                "Understand the philosophy of balanced living and healthy desires",
+                "Explore the relationship between attachment and fulfillment",
+                "Comprehend how joy contributes to overall life purpose",
+                "Study wisdom teachings on pleasure, desire, and contentment"
+              ],
+              "sky": [
+                "Contemplate the deeper sources of lasting happiness",
+                "Reflect on the connection between inner peace and outer joy",
+                "Explore the spiritual dimensions of pleasure and fulfillment",
+                "Discover joy as an expression of your essential nature"
+              ]
+            }
+          },
+          "estimated_duration": 30,
+          "content": {
+            "text": "# Joyful Living Practices: The Art of Sacred Enjoyment\n\n*\"Ananda\" - Bliss is your birthright*\n\nJoy is not a luxury or something to be earned - it is your natural state. Like a flower that blooms not for any purpose but simply because blooming is its nature, you are designed to experience joy, beauty, and fulfillment. This lesson explores how to cultivate sustainable joy while maintaining wisdom and balance.\n\n## Understanding Kama: The Pursuit of Fulfillment\n\nIn the ancient wisdom tradition, Kama represents the legitimate pursuit of pleasure, beauty, love, and emotional fulfillment. It is one of the four essential goals of human life, alongside:\n- **Dharma** (righteous living)\n- **Artha** (prosperity and security)\n- **Moksha** (spiritual liberation)\n\nKama teaches us that joy and pleasure, when approached with wisdom, are not obstacles to spiritual growth but expressions of it.\n\n## The Difference Between Pleasure and Joy\n\n### Pleasure: The Temporary\n- Depends on external circumstances\n- Comes and goes based on conditions\n- Often followed by its opposite\n- Can become addictive or compulsive\n- Examples: eating delicious food, entertainment, shopping\n\n### Joy: The Sustainable\n- Arises from inner contentment\n- Independent of external conditions\n- Naturally renewable and self-sustaining\n- Enhances overall well-being\n- Examples: gratitude, connection, creativity, service\n\n**The Goal**: Enjoy pleasures wisely while cultivating sustainable joy.\n\n## The Five Pillars of Joyful Living\n\n### 1. Gratitude Practice\n*\"Gratitude turns what we have into enough\"*\n\nGratitude is the fastest way to shift from scarcity to abundance, from complaint to contentment.\n\n**Daily Practice**:\n- Morning: Name 3 things you're grateful for\n- Evening: Reflect on 3 good moments from your day\n- Weekly: Write a gratitude letter to someone who has helped you\n\n### 2. Mindful Enjoyment\n*\"When you eat, eat. When you play, play.\"*\n\nTrue enjoyment comes from being fully present with pleasurable experiences.\n\n**Practice Guidelines**:\n- **Slow down**: Savor experiences rather than rushing through them\n- **Engage your senses**: Notice colors, textures, sounds, tastes, smells\n- **Minimize distractions**: Put away devices during enjoyable activities\n- **Express appreciation**: Say \"thank you\" for good experiences\n\n### 3. Creative Expression\n*\"Creativity is the soul's way of playing\"*\n\nCreativity connects us to the joy of creation itself, making us co-creators with life.\n\n**Simple Creative Practices**:\n- **Daily doodling**: 5 minutes of drawing whatever comes to mind\n- **Movement expression**: Dance to your favorite song\n- **Word play**: Write a short poem or story\n- **Cooking creativity**: Try a new recipe or ingredient\n- **Nature art**: Arrange flowers, stones, or leaves\n\n### 4. Connection and Love\n*\"Joy shared is joy doubled\"*\n\nHumans are wired for connection. Our deepest joys often come through loving relationships.\n\n**Connection Practices**:\n- **Quality time**: Give someone your full attention for 15 minutes\n- **Acts of kindness**: Do something nice for someone daily\n- **Deep listening**: Really hear what others are saying\n- **Appreciation expression**: Tell people what you value about them\n- **Community involvement**: Participate in group activities you enjoy\n\n### 5. Nature Immersion\n*\"In nature, we remember our place in the web of life\"*\n\nNature naturally restores our sense of wonder and connection to life's beauty.\n\n**Nature Practices**:\n- **Daily nature time**: Spend at least 10 minutes outdoors\n- **Mindful walking**: Walk slowly and notice natural beauty\n- **Sky gazing**: Watch clouds, stars, or sunrise/sunset\n- **Plant connection**: Care for plants or garden\n- **Weather appreciation**: Find beauty in all weather conditions\n\n## The Joy Toolkit: Quick Practices for Any Moment\n\n### 2-Minute Joy Boosters\n- **Smile meditation**: Smile gently and notice how it affects your mood\n- **Beauty hunt**: Find 3 beautiful things in your immediate environment\n- **Gratitude burst**: Rapidly list 10 things you appreciate\n- **Body appreciation**: Thank your body for all it does for you\n- **Memory joy**: Recall a happy memory in vivid detail\n\n### 5-Minute Joy Practices\n- **Dance break**: Put on music and move your body freely\n- **Laughter session**: Watch something funny or practice laughing\n- **Breathing joy**: Breathe in peace, breathe out gratitude\n- **Loving-kindness**: Send good wishes to yourself and others\n- **Sensory pleasure**: Enjoy something beautiful, tasty, or pleasant\n\n### 15-Minute Joy Rituals\n- **Creative play**: Engage in any creative activity without goals\n- **Nature meditation**: Sit quietly in nature and absorb its peace\n- **Gratitude journaling**: Write about what brings you joy\n- **Self-care ritual**: Do something nurturing for yourself\n- **Connection call**: Reach out to someone you care about\n\n## Navigating Challenges to Joy\n\n### When Life Feels Heavy\n**Challenge**: Difficult circumstances make joy seem inappropriate or impossible\n**Approach**: Start small - find tiny moments of beauty or relief\n**Practice**: \"Even in this difficulty, I can appreciate...\"\n\n### When Guilt Arises\n**Challenge**: Feeling guilty for enjoying life when others suffer\n**Approach**: Understand that your joy contributes to the world's healing\n**Practice**: \"My joy is a gift I give to the world\"\n\n### When Joy Feels Forced\n**Challenge**: Trying too hard to be happy creates pressure\n**Approach**: Allow all emotions while gently inclining toward joy\n**Practice**: \"I don't have to be joyful, but I can be open to joy\"\n\n### When Comparison Steals Joy\n**Challenge**: Comparing your life to others diminishes appreciation\n**Approach**: Focus on your unique path and blessings\n**Practice**: \"My joy is not dependent on having more than others\"\n\n## The Wisdom of Balanced Enjoyment\n\n### Healthy Relationship with Desires\n- **Acknowledge**: It's natural to have desires and preferences\n- **Evaluate**: Ask \"Will this serve my highest good?\"\n- **Enjoy**: When you choose to indulge, do so mindfully\n- **Release**: Don't cling to experiences or outcomes\n\n### Signs of Balanced Enjoyment\n- You can enjoy pleasures without becoming dependent on them\n- You find joy in simple, everyday experiences\n- Your happiness doesn't require constant stimulation\n- You can be content even when desires aren't fulfilled\n- Your joy enhances rather than detracts from your relationships\n\n## Creating Your Personal Joy Practice\n\n### Weekly Joy Planning\nEach week, intentionally plan for joy:\n- **Monday**: Schedule one thing you're looking forward to\n- **Wednesday**: Plan a creative or playful activity\n- **Friday**: Arrange time with someone you enjoy\n- **Weekend**: Include both active enjoyment and peaceful rest\n\n### Monthly Joy Review\nReflect on:\n- What brought me the most joy this month?\n- What drained my joy, and how can I address this?\n- What new sources of joy do I want to explore?\n- How can I share more joy with others?\n\n## The Ripple Effect of Joy\n\nWhen you cultivate genuine joy:\n- **Your energy becomes magnetic** - others are drawn to your positivity\n- **Your creativity flourishes** - joy opens channels of inspiration\n- **Your relationships deepen** - people feel safe and happy around you\n- **Your resilience grows** - joy provides strength during challenges\n- **Your service expands** - fulfilled people naturally want to give\n\n## Joy as Spiritual Practice\n\nIn many wisdom traditions, joy is considered a spiritual practice because:\n- It connects us to the divine nature of existence\n- It opens our hearts to love and compassion\n- It reminds us of life's inherent goodness\n- It helps us transcend ego-based suffering\n- It aligns us with the creative force of the universe\n\n## Your Joyful Living Commitment\n\nChoose one practice from each pillar to commit to for the next week:\n\n1. **Gratitude**: ________________________________\n2. **Mindful Enjoyment**: ________________________\n3. **Creative Expression**: ______________________\n4. **Connection**: _______________________________\n5. **Nature**: ___________________________________\n\nRemember: Joy is not selfish - it's essential. When you live joyfully, you become a beacon of light in the world, inspiring others to remember their own capacity for happiness and fulfillment.\n\n*\"The purpose of life is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.\" - Eleanor Roosevelt*\n\nYour joy is a gift to yourself and to the world. Embrace it fully, share it generously, and let it guide you toward a life of meaning and fulfillment.",
+            "media": {
+              "images": [
+                "joyful_celebration.jpg",
+                "nature_bliss.jpg",
+                "creative_expression.jpg"
+              ],
+              "videos": [
+                "joy_practices_demo.mp4",
+                "mindful_enjoyment_guide.mp4"
+              ],
+              "audio": [
+                "joyful_living_narration.mp3",
+                "gratitude_meditation.mp3"
+              ]
+            }
+          },
+          "query_paths": {
+            "practical": {
+              "agent_type": "seed",
+              "focus": "hands-on techniques for cultivating daily joy and well-being",
+              "sample_queries": [
+                "What are specific practices I can do to feel more joyful?",
+                "How can I create more fun and enjoyment in my daily routine?",
+                "What are quick ways to boost my mood when I'm feeling down?",
+                "How do I balance enjoying life with being responsible?"
+              ],
+              "practice_exercises": [
+                {
+                  "title": "The Daily Joy Challenge",
+                  "description": "A 7-day challenge to intentionally cultivate joy each day",
+                  "daily_practices": [
+                    "Day 1: Practice gratitude - list 10 things you appreciate",
+                    "Day 2: Engage in creative play for 20 minutes",
+                    "Day 3: Spend quality time in nature",
+                    "Day 4: Connect meaningfully with someone you care about",
+                    "Day 5: Try something new that sounds fun",
+                    "Day 6: Practice mindful enjoyment of a simple pleasure",
+                    "Day 7: Reflect on the week and celebrate your joy journey"
+                  ]
+                },
+                {
+                  "title": "Joy Emergency Kit",
+                  "description": "Create a personalized toolkit for quickly accessing joy",
+                  "components": [
+                    "A playlist of songs that always make you smile",
+                    "Photos that bring back happy memories",
+                    "A list of 5-minute activities that boost your mood",
+                    "Contact information for people who make you laugh",
+                    "A collection of inspiring quotes or affirmations"
+                  ]
+                }
+              ]
+            },
+            "conceptual": {
+              "agent_type": "tree",
+              "focus": "understanding the philosophy and psychology of joy and fulfillment",
+              "sample_queries": [
+                "What's the difference between happiness and joy?",
+                "How does joy relate to the other goals of life like dharma and moksha?",
+                "Why is it important to cultivate joy rather than just pursue pleasure?",
+                "How can I enjoy life without becoming attached to outcomes?"
+              ],
+              "key_concepts": [
+                {
+                  "concept": "Sustainable Joy",
+                  "explanation": "Joy that comes from inner contentment rather than external circumstances",
+                  "connection": "This type of joy is renewable and doesn't depend on constantly changing conditions"
+                },
+                {
+                  "concept": "Mindful Pleasure",
+                  "explanation": "Enjoying sensory experiences with full presence and appreciation",
+                  "connection": "This approach maximizes enjoyment while preventing addiction or compulsion"
+                },
+                {
+                  "concept": "Joy as Service",
+                  "explanation": "Understanding that personal joy contributes to collective well-being",
+                  "connection": "Joyful people naturally inspire and uplift others, creating positive ripple effects"
+                }
+              ]
+            },
+            "reflective": {
+              "agent_type": "sky",
+              "focus": "contemplating the deeper spiritual dimensions of joy and fulfillment",
+              "sample_queries": [
+                "What is the relationship between joy and my spiritual nature?",
+                "How does cultivating joy serve my soul's evolution?",
+                "What does it mean that joy is my birthright?",
+                "How can I find joy even in difficult circumstances?"
+              ],
+              "reflection_prompts": [
+                {
+                  "prompt": "The Source of Joy",
+                  "question": "If joy is your natural state, what covers it up? What would happen if you removed these coverings?",
+                  "guidance": "Contemplate joy not as something to achieve but as something to uncover by removing what obscures it."
+                },
+                {
+                  "prompt": "Joy as Divine Expression",
+                  "question": "How might your personal joy be an expression of the universe celebrating itself through you?",
+                  "guidance": "Consider that your capacity for joy connects you to the creative, celebratory nature of existence itself."
+                },
+                {
+                  "prompt": "The Paradox of Seeking Joy",
+                  "question": "What happens when you stop chasing joy and simply allow yourself to be joyful?",
+                  "guidance": "Explore how the pursuit of joy can sometimes prevent its natural arising."
+                }
+              ]
+            }
+          },
+          "quiz": [
+            {
+              "id": "joy_vs_pleasure",
+              "type": "multiple_choice",
+              "question": "What is the main difference between pleasure and sustainable joy?",
+              "options": [
+                "Pleasure is better than joy",
+                "Joy depends on external circumstances, pleasure comes from within",
+                "Pleasure is temporary and external, joy is renewable and internal",
+                "There is no difference between them"
+              ],
+              "correct_answer": 2,
+              "explanation": "Pleasure typically depends on external circumstances and is temporary, while sustainable joy arises from inner contentment and can be renewed regardless of external conditions.",
+              "agent_specific_feedback": {
+                "seed": "Perfect! Now practice cultivating both - enjoy pleasures mindfully while building practices that generate sustainable joy.",
+                "tree": "Excellent understanding! This distinction helps you make wise choices about how to pursue fulfillment.",
+                "sky": "Beautiful insight! You've touched the difference between conditional and unconditional happiness."
+              }
+            },
+            {
+              "id": "personal_joy_practice",
+              "type": "reflection",
+              "question": "What brings you the most sustainable joy in your life? How can you cultivate more of this?",
+              "sample_answers": [
+                "Connecting with loved ones - I can prioritize quality time and deep conversations",
+                "Being in nature - I can make daily walks or outdoor time a priority",
+                "Creative expression - I can set aside regular time for art, music, or writing",
+                "Helping others - I can look for more opportunities to serve and contribute"
+              ],
+              "guidance": "Identify what truly nourishes your soul and create practical ways to include more of it in your daily life.",
+              "agent_specific_feedback": {
+                "seed": "Great self-awareness! Now create a specific plan to include more of this joy source in your weekly routine.",
+                "tree": "Wonderful insight! Understanding your unique joy sources helps you design a fulfilling life aligned with your nature.",
+                "sky": "Beautiful recognition! You're connecting with what feeds your soul and brings you alive."
+              }
+            }
+          ],
+          "challenges": [
+            {
+              "id": "joyful_living_month",
+              "title": "30 Days of Joyful Living",
+              "description": "A month-long journey to establish sustainable joy practices",
+              "type": "progressive",
+              "weekly_themes": [
+                {
+                  "week": 1,
+                  "theme": "Foundation Building",
+                  "focus": "Establish basic gratitude and mindfulness practices",
+                  "daily_practice": "Morning gratitude (3 things) + one mindful pleasure experience"
+                },
+                {
+                  "week": 2,
+                  "theme": "Creative Expression",
+                  "focus": "Explore different forms of creative play and expression",
+                  "daily_practice": "15 minutes of creative activity + gratitude practice"
+                },
+                {
+                  "week": 3,
+                  "theme": "Connection and Service",
+                  "focus": "Deepen relationships and find joy in giving",
+                  "daily_practice": "One meaningful connection + one act of kindness + gratitude"
+                },
+                {
+                  "week": 4,
+                  "theme": "Integration and Sustainability",
+                  "focus": "Create a personalized joy practice for ongoing use",
+                  "daily_practice": "Your custom joy practice + weekly reflection"
+                }
+              ]
+            }
+          ],
+          "tts": true,
+          "metadata": {
+            "created_by": "Akash Gurukul Curriculum Team",
+            "created_date": "2024-01-08",
+            "last_modified": "2024-01-08",
+            "version": "1.0",
+            "tags": [
+              "joy",
+              "fulfillment",
+              "kama",
+              "well-being",
+              "happiness"
+            ],
+            "difficulty": 2
+          }
+        }
+      ],
       "Tree": [],
       "Sky": []
     },
     "moksha": {
       "Seed": [],
       "Tree": [],
-      "Sky": []
+      "Sky": [
+        {
+          "id": "sky_moksha_001",
+          "title": "Inner Wisdom Awakening",
+          "level": "Sky",
+          "category": "moksha",
+          "prerequisites": [
+            "foundation_000_sankalpa"
+          ],
+          "learning_objectives": {
+            "overall": [
+              "Discover the source of inner wisdom within yourself",
+              "Learn to distinguish between knowledge and wisdom",
+              "Develop practices for accessing intuitive guidance",
+              "Understand the relationship between silence and insight"
+            ],
+            "by_agent": {
+              "seed": [
+                "Practice daily meditation and contemplation techniques",
+                "Develop skills for inner listening and reflection",
+                "Build habits of mindful awareness and presence",
+                "Learn practical methods for accessing inner guidance"
+              ],
+              "tree": [
+                "Understand the philosophical foundations of inner wisdom",
+                "Explore the relationship between consciousness and knowledge",
+                "Comprehend different types of knowing and awareness",
+                "Study wisdom traditions and their approaches to inner development"
+              ],
+              "sky": [
+                "Experience direct connection with your inner wisdom source",
+                "Contemplate the nature of consciousness and awareness",
+                "Explore the mystery of knowing beyond thinking",
+                "Discover your unique path to spiritual awakening"
+              ]
+            }
+          },
+          "estimated_duration": 40,
+          "content": {
+            "text": "# Inner Wisdom Awakening: The Light Within\n\n*\"Tat tvam asi\" - Thou art That*\n\nDeep within every being lies an inexhaustible source of wisdom, waiting to be discovered. This wisdom is not something you acquire from outside, but something you uncover from within. Like a lamp hidden under a basket, your inner light has always been shining - you simply need to remove what obscures it.\n\n## The Difference Between Knowledge and Wisdom\n\n### Knowledge: The Accumulated\nKnowledge is what we gather from books, teachers, and experiences. It is:\n- Information stored in memory\n- Facts, concepts, and theories\n- Something we can share and teach\n- Useful for navigating the external world\n\n### Wisdom: The Revealed\nWisdom is what emerges from the depths of our being. It is:\n- Insight that arises spontaneously\n- Understanding that transcends logic\n- Knowing that comes from silence\n- Guidance that feels absolutely true\n\n## The Three Doors to Inner Wisdom\n\n### 1. The Door of Silence\n*\"In the depth of silence, wisdom speaks\"*\n\nSilence is not merely the absence of sound, but the presence of profound stillness. In this stillness:\n- The mind's chatter subsides\n- Deeper truths can emerge\n- Intuitive insights arise naturally\n- The voice of wisdom becomes audible\n\n**Practice**: Spend 10 minutes each day in complete silence, not trying to achieve anything, just being present with whatever arises.\n\n### 2. The Door of Questions\n*\"The quality of your questions determines the quality of your life\"*\n\nWisdom often comes not as answers, but as better questions. Sacred questions include:\n- \"What is my deepest truth?\"\n- \"What wants to emerge through me?\"\n- \"What would love do here?\"\n- \"What is life asking of me now?\"\n\n**Practice**: Choose one sacred question and carry it with you for a week, allowing insights to emerge naturally.\n\n### 3. The Door of Presence\n*\"Wisdom is always available in this moment\"*\n\nWhen we are fully present, we connect with the intelligence of life itself. This presence:\n- Dissolves the barriers between self and wisdom\n- Allows natural knowing to flow\n- Connects us with universal intelligence\n- Reveals the perfection of each moment\n\n**Practice**: Throughout your day, pause and ask: \"What does this moment want to teach me?\"\n\n## The Inner Guru: Your Wisdom Self\n\nWithin you lives an aspect that already knows everything you need to know. This inner guru:\n- Speaks through intuition and insight\n- Guides you toward your highest good\n- Never leads you astray\n- Is always available when you listen\n\n### Recognizing the Voice of Inner Wisdom\n\nInner wisdom often speaks through:\n- **Sudden clarity** that feels absolutely true\n- **Peaceful knowing** that brings calm certainty\n- **Loving guidance** that serves your highest good\n- **Timeless insights** that feel both new and ancient\n\n### Distinguishing Wisdom from Mental Noise\n\n**Mental Noise** tends to be:\n- Anxious and urgent\n- Based on fear or desire\n- Repetitive and circular\n- Concerned with past or future\n\n**Inner Wisdom** tends to be:\n- Calm and patient\n- Based on love and truth\n- Fresh and spontaneous\n- Rooted in the present moment\n\n## The Awakening Process\n\n### Stage 1: Recognition\n*\"I have wisdom within me\"*\n\nThe journey begins with recognizing that you already possess everything you need. This isn't about acquiring something new, but uncovering what has always been there.\n\n### Stage 2: Cultivation\n*\"I can access this wisdom\"*\n\nThrough practice and attention, you learn to create conditions where wisdom can emerge. Like tending a garden, you prepare the soil of your consciousness.\n\n### Stage 3: Integration\n*\"I live from this wisdom\"*\n\nWisdom becomes not something you access occasionally, but the foundation from which you live. Your life becomes an expression of inner knowing.\n\n### Stage 4: Service\n*\"I share this wisdom\"*\n\nAs wisdom awakens within you, it naturally wants to serve others. You become a channel for the wisdom that flows through all life.\n\n## Obstacles to Inner Wisdom\n\n### The Busy Mind\n**Challenge**: Constant mental activity drowns out subtle wisdom\n**Solution**: Regular meditation and mindfulness practices\n\n### The Doubting Voice\n**Challenge**: \"How do I know if this is real wisdom?\"\n**Solution**: Trust the fruits - true wisdom always leads to greater peace and love\n\n### The Impatient Heart\n**Challenge**: Wanting wisdom to come on demand\n**Solution**: Cultivate patience and trust in the natural unfolding\n\n### The Comparing Mind\n**Challenge**: Thinking others have more wisdom\n**Solution**: Remember that each person's wisdom is unique and perfect for them\n\n## Daily Practices for Wisdom Awakening\n\n### Morning Invocation\nBegin each day by connecting with your inner wisdom:\n*\"I open to the wisdom that lives within me. I trust the guidance that emerges from silence. I am ready to receive what life wants to teach me today.\"*\n\n### Wisdom Journaling\nEach evening, write responses to:\n- What wisdom emerged for me today?\n- What did I learn about myself?\n- What guidance am I receiving for tomorrow?\n\n### The Pause Practice\nThroughout the day, pause before important decisions and ask:\n- What does my deepest wisdom say about this?\n- What choice would serve the highest good?\n- What feels most true and aligned?\n\n## The Paradox of Seeking\n\nThe beautiful paradox of inner wisdom is that the more you seek it, the more elusive it becomes. Yet the more you relax into your natural state of knowing, the more readily it appears.\n\nWisdom is not something you achieve - it's something you are.\nWisdom is not something you find - it's something that finds you.\nWisdom is not something you learn - it's something you remember.\n\n## Your Unique Wisdom Path\n\nJust as every flower blooms in its own way, your wisdom will express itself uniquely. Some people receive wisdom through:\n- Dreams and visions\n- Nature and beauty\n- Relationships and service\n- Art and creativity\n- Study and contemplation\n- Movement and embodiment\n\nThere is no right or wrong way. Your path is perfect for you.\n\n## The Invitation\n\nInner wisdom is not a destination but a way of being. It's not something you achieve once and possess forever, but something you cultivate and embody moment by moment.\n\nToday, you are invited to:\n- Trust the wisdom that already lives within you\n- Create space for insights to emerge\n- Listen more deeply to your inner voice\n- Act from your deepest knowing\n- Share your unique gifts with the world\n\nRemember: You are not seeking wisdom - you ARE wisdom, temporarily forgetting your true nature. The journey is simply a remembering, a coming home to who you have always been.\n\n*\"The cave you fear to enter holds the treasure you seek.\" - Joseph Campbell*\n\nYour inner cave of silence holds the greatest treasure of all - the wisdom of your own awakened heart.",
+            "media": {
+              "images": [
+                "inner_light_mandala.jpg",
+                "wisdom_tree_roots.jpg",
+                "silent_meditation.jpg"
+              ],
+              "videos": [
+                "wisdom_awakening_journey.mp4",
+                "inner_guru_meditation.mp4"
+              ],
+              "audio": [
+                "wisdom_awakening_narration.mp3",
+                "silent_meditation_guide.mp3"
+              ]
+            }
+          },
+          "query_paths": {
+            "practical": {
+              "agent_type": "seed",
+              "focus": "developing daily practices for accessing inner wisdom",
+              "sample_queries": [
+                "How can I practice connecting with my inner wisdom?",
+                "What are specific techniques for accessing intuitive guidance?",
+                "How do I create space for wisdom to emerge in my daily life?",
+                "What practices help me distinguish wisdom from mental noise?"
+              ],
+              "practice_exercises": [
+                {
+                  "title": "Daily Wisdom Check-in",
+                  "description": "A simple practice to connect with inner guidance",
+                  "steps": [
+                    "Find a quiet space and sit comfortably",
+                    "Take three deep breaths to center yourself",
+                    "Ask: 'What does my inner wisdom want me to know today?'",
+                    "Listen without forcing or expecting anything",
+                    "Notice what arises - thoughts, feelings, images, or knowing",
+                    "Thank your inner wisdom and carry the guidance with you"
+                  ]
+                },
+                {
+                  "title": "The Sacred Pause",
+                  "description": "Using moments of pause to access wisdom throughout the day",
+                  "practice": "Before making any significant decision, pause for 30 seconds and ask your inner wisdom for guidance. Notice the first response that feels peaceful and true."
+                }
+              ]
+            },
+            "conceptual": {
+              "agent_type": "tree",
+              "focus": "understanding the nature and sources of inner wisdom",
+              "sample_queries": [
+                "What is the difference between knowledge and wisdom?",
+                "How does inner wisdom relate to consciousness?",
+                "What do different wisdom traditions say about inner knowing?",
+                "How can I understand the relationship between mind and wisdom?"
+              ],
+              "key_concepts": [
+                {
+                  "concept": "Intuitive Intelligence",
+                  "explanation": "A form of knowing that bypasses rational analysis and accesses direct understanding",
+                  "connection": "This intelligence operates through the heart and body, not just the mind"
+                },
+                {
+                  "concept": "The Inner Guru",
+                  "explanation": "The aspect of consciousness that serves as an internal guide and teacher",
+                  "connection": "This inner teacher is always available and perfectly suited to your unique path"
+                },
+                {
+                  "concept": "Embodied Wisdom",
+                  "explanation": "Wisdom that is not just understood mentally but lived and expressed through being",
+                  "connection": "True wisdom transforms how we live, not just how we think"
+                }
+              ]
+            },
+            "reflective": {
+              "agent_type": "sky",
+              "focus": "deep contemplation on the mystery of consciousness and knowing",
+              "sample_queries": [
+                "What is the source of the wisdom within me?",
+                "How does consciousness know itself?",
+                "What is the relationship between my individual wisdom and universal wisdom?",
+                "How does awakening to inner wisdom change my understanding of reality?"
+              ],
+              "reflection_prompts": [
+                {
+                  "prompt": "The Knower Behind the Known",
+                  "question": "Who or what is it that knows your thoughts, feelings, and experiences? What is the nature of this knowing awareness?",
+                  "guidance": "Contemplate the mysterious presence that is aware of all your experiences but is not itself an experience."
+                },
+                {
+                  "prompt": "The Wisdom of Not-Knowing",
+                  "question": "What if the deepest wisdom comes not from accumulating knowledge but from embracing the mystery of not-knowing?",
+                  "guidance": "Explore how letting go of the need to know everything can open you to a deeper way of knowing."
+                },
+                {
+                  "prompt": "The Universal and the Personal",
+                  "question": "How is your individual wisdom connected to the wisdom of the cosmos? Are they separate or one?",
+                  "guidance": "Contemplate the possibility that your inner wisdom is a unique expression of universal intelligence."
+                }
+              ]
+            }
+          },
+          "quiz": [
+            {
+              "id": "wisdom_vs_knowledge",
+              "type": "multiple_choice",
+              "question": "What is the primary difference between knowledge and wisdom?",
+              "options": [
+                "Knowledge is more valuable than wisdom",
+                "Knowledge is accumulated from outside, wisdom emerges from within",
+                "Wisdom is just organized knowledge",
+                "There is no real difference between them"
+              ],
+              "correct_answer": 1,
+              "explanation": "Knowledge is information we gather from external sources, while wisdom is insight that emerges from our inner depths and direct experience.",
+              "agent_specific_feedback": {
+                "seed": "Great! Now practice distinguishing between these in your daily life - notice when you're accessing stored knowledge versus inner wisdom.",
+                "tree": "Excellent understanding! This distinction is fundamental to all wisdom traditions and spiritual development.",
+                "sky": "Beautiful insight! You've touched the mystery of how consciousness knows itself through both accumulation and revelation."
+              }
+            },
+            {
+              "id": "inner_wisdom_recognition",
+              "type": "reflection",
+              "question": "Describe a time when you experienced inner wisdom - a moment when you 'just knew' something without being able to explain how you knew it.",
+              "sample_answers": [
+                "A sudden clarity about a life decision that felt absolutely right",
+                "An intuitive understanding about someone's feelings or needs",
+                "A creative insight that emerged from nowhere during quiet time",
+                "A sense of knowing what to do in a difficult situation"
+              ],
+              "guidance": "Reflect on the quality of this knowing - how it felt different from regular thinking, and how you can recognize and trust such moments.",
+              "agent_specific_feedback": {
+                "seed": "Use this memory as a reference point for recognizing inner wisdom in the future. Practice creating conditions where such knowing can emerge.",
+                "tree": "This experience shows you have direct access to wisdom beyond rational thought. Study how such knowing operates in your life.",
+                "sky": "You've touched the mystery of consciousness knowing itself. This is the doorway to deeper awakening and self-realization."
+              }
+            }
+          ],
+          "challenges": [
+            {
+              "id": "wisdom_awakening_week",
+              "title": "Seven Days of Wisdom Awakening",
+              "description": "A week-long journey to deepen your connection with inner wisdom",
+              "type": "progressive",
+              "daily_challenges": [
+                {
+                  "day": 1,
+                  "focus": "Silence and Listening",
+                  "task": "Spend 15 minutes in complete silence, simply listening to what emerges from within",
+                  "reflection": "What did you notice in the silence? What wanted to be heard?"
+                },
+                {
+                  "day": 2,
+                  "focus": "Sacred Questions",
+                  "task": "Choose one meaningful question about your life and carry it with you all day without trying to answer it",
+                  "reflection": "What insights or perspectives emerged around your question?"
+                },
+                {
+                  "day": 3,
+                  "focus": "Body Wisdom",
+                  "task": "Before making any decision today, pause and notice what your body tells you about each option",
+                  "reflection": "How does your body communicate wisdom? What did you learn to trust?"
+                },
+                {
+                  "day": 4,
+                  "focus": "Nature's Teaching",
+                  "task": "Spend time in nature and ask what it wants to teach you about wisdom and knowing",
+                  "reflection": "What wisdom did nature share? How does the natural world embody knowing?"
+                },
+                {
+                  "day": 5,
+                  "focus": "Dream Wisdom",
+                  "task": "Before sleep, ask your inner wisdom to communicate through dreams, and record what you remember upon waking",
+                  "reflection": "What messages or insights came through your dreams or the space between sleep and waking?"
+                },
+                {
+                  "day": 6,
+                  "focus": "Wisdom in Relationship",
+                  "task": "In your interactions today, practice listening for the wisdom that wants to emerge through connection with others",
+                  "reflection": "How does wisdom express itself through relationship? What did others mirror back to you?"
+                },
+                {
+                  "day": 7,
+                  "focus": "Integration and Gratitude",
+                  "task": "Reflect on the week's journey and create a personal practice for staying connected to your inner wisdom",
+                  "reflection": "How has your relationship with inner wisdom evolved? What practice will you continue?"
+                }
+              ]
+            }
+          ],
+          "tts": true,
+          "metadata": {
+            "created_by": "Akash Gurukul Curriculum Team",
+            "created_date": "2024-01-08",
+            "last_modified": "2024-01-08",
+            "version": "1.0",
+            "tags": [
+              "inner_wisdom",
+              "consciousness",
+              "moksha",
+              "awakening",
+              "intuition"
+            ],
+            "difficulty": 4
+          }
+        }
+      ]
     }
   },
   "metadata": {
-    "total_lessons": 2,
-    "last_updated": "2025-07-08T11:53:34.604492",
+    "total_lessons": 6,
+    "last_updated": "2025-07-10T12:23:58.029408",
     "levels": [
       "Seed",
       "Tree",

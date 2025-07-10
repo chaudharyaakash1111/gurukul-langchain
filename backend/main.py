@@ -3,7 +3,7 @@ FastAPI Backend for Akash Gurukul
 Provides API endpoints for agent interactions, lesson management, and curriculum ingestion
 """
 
-from fastapi import FastAPI, HTTPException, Depends
+from fastapi import FastAPI, HTTPException, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
@@ -11,6 +11,8 @@ from pydantic import BaseModel
 from typing import Dict, List, Any, Optional
 import sys
 import os
+import time
+from datetime import datetime
 from pathlib import Path
 
 # Add parent directory to path for imports
@@ -20,6 +22,7 @@ from agents.base_agent import create_agent
 from curriculum.ingestion import CurriculumIngestion
 from curriculum.lesson_flow import LessonFlowManager
 from agents.agent_chaining import agent_chain_manager, AgentChainContext
+from monitoring.logging_config import gurukul_logger, metrics_collector, log_performance
 
 app = FastAPI(
     title="Akash Gurukul API",
@@ -38,6 +41,48 @@ app.add_middleware(
 
 # Mount static files
 app.mount("/static", StaticFiles(directory="static"), name="static")
+
+# Monitoring middleware
+@app.middleware("http")
+async def monitoring_middleware(request: Request, call_next):
+    """Monitor API requests and responses"""
+    start_time = time.time()
+
+    # Get student ID from request if available
+    student_id = None
+    if request.method == "POST":
+        try:
+            body = await request.body()
+            if body:
+                import json
+                data = json.loads(body)
+                student_id = data.get("student_id")
+        except:
+            pass
+
+    # Process request
+    response = await call_next(request)
+
+    # Calculate response time
+    response_time = time.time() - start_time
+
+    # Log API request
+    try:
+        gurukul_logger.log_api_request(
+            endpoint=str(request.url.path),
+            method=request.method,
+            status_code=response.status_code,
+            response_time=response_time,
+            student_id=student_id
+        )
+
+        # Record metrics
+        metrics_collector.record_api_request()
+
+    except Exception as e:
+        print(f"Monitoring error: {e}")
+
+    return response
 
 # Global instances
 curriculum_ingestion = CurriculumIngestion()
@@ -717,14 +762,136 @@ async def reload_curriculum():
 # Health check endpoint
 @app.get("/api/health")
 async def health_check():
-    """Health check endpoint"""
-    return {
-        "status": "healthy",
-        "service": "Akash Gurukul API",
-        "version": "1.0.0",
-        "agents_active": len(active_agents),
-        "lessons_loaded": len(curriculum_ingestion.lessons)
-    }
+    """Enhanced health check endpoint with metrics"""
+    try:
+        # Get system metrics
+        metrics_summary = metrics_collector.get_metrics_summary()
+
+        return {
+            "status": "healthy",
+            "service": "Akash Gurukul API",
+            "version": "1.0.0",
+            "lessons_loaded": len(curriculum_ingestion.lessons),
+            "agents_available": ["seed", "tree", "sky"],
+            "agents_active": len(active_agents),
+            "system_metrics": {
+                "uptime_seconds": metrics_summary["system_uptime_seconds"],
+                "total_interactions": metrics_summary["total_agent_interactions"],
+                "success_rate": f"{metrics_summary['success_rate_percentage']:.1f}%",
+                "avg_response_time": f"{metrics_summary['average_response_time_seconds']:.2f}s",
+                "active_students": metrics_summary["active_students_count"],
+                "api_requests": metrics_summary["total_api_requests"]
+            },
+            "timestamp": datetime.now().isoformat()
+        }
+    except Exception as e:
+        # Fallback health check if metrics fail
+        return {
+            "status": "healthy",
+            "service": "Akash Gurukul API",
+            "version": "1.0.0",
+            "lessons_loaded": len(curriculum_ingestion.lessons),
+            "agents_active": len(active_agents),
+            "error": f"Metrics unavailable: {str(e)}",
+            "timestamp": datetime.now().isoformat()
+        }
+
+@app.get("/api/metrics")
+async def get_metrics():
+    """Get comprehensive system metrics"""
+    try:
+        metrics_summary = metrics_collector.get_metrics_summary()
+
+        # Add additional system information
+        metrics_summary.update({
+            "lessons_available": len(curriculum_ingestion.lessons),
+            "agents_active": len(active_agents),
+            "lesson_flow_managers": len(lesson_flow_managers),
+            "agent_distribution": metrics_summary.get("agent_usage_distribution", {}),
+            "system_info": {
+                "python_version": sys.version,
+                "fastapi_version": "0.104.1",
+                "langchain_enabled": True,
+                "memory_persistence": True,
+                "monitoring_enabled": True
+            }
+        })
+
+        return metrics_summary
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error retrieving metrics: {str(e)}")
+
+@app.get("/api/system-status")
+async def get_system_status():
+    """Get detailed system status for monitoring"""
+    try:
+        # Test key system components
+        status = {
+            "overall_status": "healthy",
+            "components": {},
+            "timestamp": datetime.now().isoformat()
+        }
+
+        # Test curriculum system
+        try:
+            lesson_count = len(curriculum_ingestion.lessons)
+            status["components"]["curriculum"] = {
+                "status": "healthy",
+                "lessons_loaded": lesson_count,
+                "last_check": datetime.now().isoformat()
+            }
+        except Exception as e:
+            status["components"]["curriculum"] = {
+                "status": "error",
+                "error": str(e),
+                "last_check": datetime.now().isoformat()
+            }
+            status["overall_status"] = "degraded"
+
+        # Test agent system
+        try:
+            test_agent = create_agent("seed", "health_check_test")
+            test_response = test_agent.respond("Health check", {})
+
+            status["components"]["agents"] = {
+                "status": "healthy",
+                "active_agents": len(active_agents),
+                "test_response_length": len(test_response),
+                "last_check": datetime.now().isoformat()
+            }
+        except Exception as e:
+            status["components"]["agents"] = {
+                "status": "error",
+                "error": str(e),
+                "last_check": datetime.now().isoformat()
+            }
+            status["overall_status"] = "degraded"
+
+        # Test memory system
+        try:
+            from agents.memory_system import AgentMemorySystem
+            test_memory = AgentMemorySystem("seed", "health_check_test")
+            memory_stats = test_memory.get_memory_stats()
+
+            status["components"]["memory"] = {
+                "status": "healthy",
+                "persistence_enabled": memory_stats.get("persistence_enabled", False),
+                "vector_store_type": memory_stats.get("vector_store_type", "unknown"),
+                "last_check": datetime.now().isoformat()
+            }
+        except Exception as e:
+            status["components"]["memory"] = {
+                "status": "error",
+                "error": str(e),
+                "last_check": datetime.now().isoformat()
+            }
+            status["overall_status"] = "degraded"
+
+        return status
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error checking system status: {str(e)}")
 
 # Root endpoint
 @app.get("/")

@@ -87,7 +87,7 @@ class BaseAgent(ABC):
 
         except Exception as e:
             print(f"Error generating response: {e}")
-            return self._get_fallback_response()
+            return self._get_fallback_response(user_input)
     
     def _create_enhanced_prompt(self, user_input: str, context: Dict[str, Any]) -> str:
         """Create enhanced prompt with better context and guardrails"""
@@ -195,12 +195,12 @@ RESPONSE (as {self.personality.get('role', self.agent_type + ' agent')}):
         lesson_title = lesson_context.get('title', '')
 
         if lesson_title:
-            return f"{self._get_fallback_response()} Let's focus on our current lesson: '{lesson_title}'. What specific aspect would you like to explore?"
+            return f"{self._get_fallback_response(user_input)} Let's focus on our current lesson: '{lesson_title}'. What specific aspect would you like to explore?"
         else:
-            return self._get_fallback_response()
+            return self._get_fallback_response(user_input)
 
     @abstractmethod
-    def _get_fallback_response(self) -> str:
+    def _get_fallback_response(self, user_input: str = "") -> str:
         """Provide fallback response when errors occur"""
         pass
     
@@ -253,8 +253,8 @@ Your teaching style:
 Remember: You are the mentor who transforms knowledge into skill through dedicated practice. Your job is to help students DO, not just understand.
 """
 
-    def _get_fallback_response(self) -> str:
-        return """Let's practice this step by step! I'm here to guide you through the process as your dedicated Practice Mentor.
+    def _get_fallback_response(self, user_input: str = "") -> str:
+        return """I apologize for the technical difficulty. Let's practice this step by step! I'm here to guide you through the process as your dedicated Practice Mentor.
 
 Think of me as your personal trainer for learning - I believe that wisdom comes alive through action and repetition. I'll help you break down any concept into practical steps you can actually do, whether you want to develop a new habit, practice a skill, or apply what you've learned in real situations.
 
@@ -303,8 +303,8 @@ Your teaching style:
 Remember: You are the keeper of wisdom who helps students understand not just WHAT things are, but WHY they matter and HOW they connect to the greater tapestry of knowledge.
 """
 
-    def _get_fallback_response(self) -> str:
-        return "Let me illuminate this concept for you. Understanding comes when we see the deeper connections. What aspect would you like me to explore more deeply?"
+    def _get_fallback_response(self, user_input: str = "") -> str:
+        return "I apologize for the technical difficulty. Let me illuminate this concept for you. Understanding comes when we see the deeper connections. What aspect would you like me to explore more deeply?"
 
 
 class SkyAgent(BaseAgent):
@@ -348,8 +348,8 @@ Your teaching style:
 Remember: You are the guide who helps students discover that the greatest teacher is within. Your role is to awaken the guru that already exists in every student's heart.
 """
 
-    def _get_fallback_response(self) -> str:
-        return "In the silence between thoughts, wisdom speaks. What question is your soul asking today? Let us explore this mystery together."
+    def _get_fallback_response(self, user_input: str = "") -> str:
+        return "I apologize for the temporary disruption in our connection. In the silence between thoughts, wisdom speaks. What question is your soul asking today? Let us explore this mystery together."
 
 
 # Factory function for creating agents

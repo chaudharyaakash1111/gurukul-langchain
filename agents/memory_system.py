@@ -276,8 +276,87 @@ class AgentMemorySystem:
                 memory_path = Path(self.config['persist_directory']) / self.agent_type / self.student_id / "faiss_index"
                 memory_path.mkdir(parents=True, exist_ok=True)
                 self.vector_store.save_local(str(memory_path))
+
+                # Also save metadata
+                metadata_path = memory_path / "metadata.json"
+                metadata = {
+                    "agent_type": self.agent_type,
+                    "student_id": self.student_id,
+                    "last_updated": datetime.now().isoformat(),
+                    "total_memories": len(self.vector_store.docstore._dict) if hasattr(self.vector_store, 'docstore') else 0,
+                    "version": "1.0"
+                }
+
+                with open(metadata_path, 'w') as f:
+                    json.dump(metadata, f, indent=2)
+
+                print(f"✅ Vector store persisted for {self.agent_type} agent, student {self.student_id}")
+
         except Exception as e:
             print(f"Warning: Could not persist vector store: {e}")
+
+    def get_memory_stats(self) -> Dict[str, Any]:
+        """Get comprehensive memory statistics"""
+        try:
+            stats = {
+                "agent_type": self.agent_type,
+                "student_id": self.student_id,
+                "total_memories": 0,
+                "memory_types": {},
+                "last_interaction": self.agent_profile.get('last_interaction'),
+                "total_interactions": self.agent_profile.get('total_interactions', 0),
+                "vector_store_type": type(self.vector_store).__name__ if self.vector_store else "None",
+                "memory_directory": str(self.memory_dir),
+                "persistence_enabled": hasattr(self.vector_store, 'save_local') if self.vector_store else False
+            }
+
+            # Count memories by type if vector store exists
+            if self.vector_store and hasattr(self.vector_store, 'docstore'):
+                docs = self.vector_store.docstore._dict
+                stats["total_memories"] = len(docs)
+
+                # Count by memory type
+                for doc in docs.values():
+                    if hasattr(doc, 'metadata') and 'type' in doc.metadata:
+                        memory_type = doc.metadata['type']
+                        stats["memory_types"][memory_type] = stats["memory_types"].get(memory_type, 0) + 1
+
+            return stats
+
+        except Exception as e:
+            return {
+                "error": str(e),
+                "agent_type": self.agent_type,
+                "student_id": self.student_id
+            }
+
+    def cleanup_old_memories(self, days_old: int = 30):
+        """Clean up memories older than specified days"""
+        try:
+            cutoff_date = datetime.now() - timedelta(days=days_old)
+
+            if self.vector_store and hasattr(self.vector_store, 'docstore'):
+                docs_to_remove = []
+
+                for doc_id, doc in self.vector_store.docstore._dict.items():
+                    if hasattr(doc, 'metadata') and 'timestamp' in doc.metadata:
+                        doc_date = datetime.fromisoformat(doc.metadata['timestamp'])
+                        if doc_date < cutoff_date:
+                            docs_to_remove.append(doc_id)
+
+                # Remove old documents
+                for doc_id in docs_to_remove:
+                    del self.vector_store.docstore._dict[doc_id]
+
+                # Persist changes
+                self._persist_vector_store()
+
+                print(f"Cleaned up {len(docs_to_remove)} old memories for {self.agent_type} agent")
+                return len(docs_to_remove)
+
+        except Exception as e:
+            print(f"Error cleaning up memories: {e}")
+            return 0
 
     def search_memory(self, query: str, limit: int = 5, filter_dict: Dict[str, Any] = None) -> List[Dict[str, Any]]:
         """Search for relevant memories"""
