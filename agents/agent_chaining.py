@@ -20,6 +20,17 @@ class TransitionTrigger(Enum):
     LEARNING_OBJECTIVE = "learning_objective"
     AGENT_RECOMMENDATION = "agent_recommendation"
 
+class AgentTransitionResult:
+    """Result of agent transition analysis"""
+
+    def __init__(self, should_transition: bool, recommended_agent: str,
+                 confidence: float, reason: str, context_data: Dict[str, Any] = None):
+        self.should_transition = should_transition
+        self.recommended_agent = recommended_agent
+        self.confidence = confidence
+        self.reason = reason
+        self.context_data = context_data or {}
+
 class AgentChainContext:
     """Shared context that travels between agents"""
     
@@ -294,6 +305,115 @@ class AgentChainManager:
             "learning_progress": context.learning_progress,
             "unresolved_questions": len(context.unresolved_questions)
         }
+
+    def should_transition(self, current_agent: str, student_message: str,
+                         agent_response: str, conversation_context: Dict[str, Any]) -> AgentTransitionResult:
+        """
+        Determine if we should transition to a different agent based on the conversation
+        """
+        # Analyze the student message for transition indicators
+        message_lower = student_message.lower()
+
+        # Keywords that suggest different agent types
+        practice_keywords = ["how", "practice", "do", "steps", "exercise", "daily", "routine"]
+        wisdom_keywords = ["why", "meaning", "understand", "explain", "concept", "principle"]
+        philosophy_keywords = ["purpose", "soul", "spiritual", "deeper", "consciousness", "meaning of life"]
+
+        # Count keyword matches
+        practice_score = sum(1 for keyword in practice_keywords if keyword in message_lower)
+        wisdom_score = sum(1 for keyword in wisdom_keywords if keyword in message_lower)
+        philosophy_score = sum(1 for keyword in philosophy_keywords if keyword in message_lower)
+
+        # Determine best agent
+        scores = {
+            "seed": practice_score,
+            "tree": wisdom_score,
+            "sky": philosophy_score
+        }
+
+        best_agent = max(scores, key=scores.get)
+        best_score = scores[best_agent]
+
+        # Only suggest transition if there's a clear better match and it's different from current
+        should_transition = (best_agent != current_agent and best_score > 0)
+        confidence = min(best_score / 3.0, 1.0)  # Normalize to 0-1
+
+        reason = f"Message contains {best_score} keywords suggesting {best_agent} agent expertise"
+
+        return AgentTransitionResult(
+            should_transition=should_transition,
+            recommended_agent=best_agent,
+            confidence=confidence,
+            reason=reason,
+            context_data={
+                "keyword_scores": scores,
+                "current_agent": current_agent,
+                "message_analysis": {
+                    "practice_score": practice_score,
+                    "wisdom_score": wisdom_score,
+                    "philosophy_score": philosophy_score
+                }
+            }
+        )
+
+    def route_to_best_agent(self, student_message: str, conversation_context: Dict[str, Any]) -> AgentTransitionResult:
+        """
+        Route to the best agent for initial message (no current agent)
+        """
+        message_lower = student_message.lower()
+
+        # Enhanced keyword analysis for routing
+        practice_keywords = ["how", "practice", "do", "steps", "exercise", "daily", "routine", "action", "implement"]
+        wisdom_keywords = ["why", "meaning", "understand", "explain", "concept", "principle", "learn", "teach"]
+        philosophy_keywords = ["purpose", "soul", "spiritual", "deeper", "consciousness", "meaning of life", "reflect"]
+
+        # Advanced scoring with weights
+        practice_score = sum(2 if keyword in message_lower else 0 for keyword in practice_keywords)
+        wisdom_score = sum(2 if keyword in message_lower else 0 for keyword in wisdom_keywords)
+        philosophy_score = sum(2 if keyword in message_lower else 0 for keyword in philosophy_keywords)
+
+        # Question type analysis
+        if message_lower.startswith("how"):
+            practice_score += 3
+        elif message_lower.startswith("why"):
+            wisdom_score += 3
+        elif message_lower.startswith("what") and ("meaning" in message_lower or "purpose" in message_lower):
+            philosophy_score += 3
+
+        # Determine best agent
+        scores = {
+            "seed": practice_score,
+            "tree": wisdom_score,
+            "sky": philosophy_score
+        }
+
+        best_agent = max(scores, key=scores.get)
+        best_score = scores[best_agent]
+
+        # Default to seed if no clear preference
+        if best_score == 0:
+            best_agent = "seed"
+            reason = "Default routing to seed agent for general guidance"
+            confidence = 0.5
+        else:
+            reason = f"Routed to {best_agent} agent based on message analysis (score: {best_score})"
+            confidence = min(best_score / 6.0, 1.0)
+
+        return AgentTransitionResult(
+            should_transition=True,  # Always true for initial routing
+            recommended_agent=best_agent,
+            confidence=confidence,
+            reason=reason,
+            context_data={
+                "keyword_scores": scores,
+                "routing_type": "initial",
+                "message_analysis": {
+                    "practice_score": practice_score,
+                    "wisdom_score": wisdom_score,
+                    "philosophy_score": philosophy_score
+                }
+            }
+        )
 
 # Global instance for the application
 agent_chain_manager = AgentChainManager()

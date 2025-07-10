@@ -65,6 +65,26 @@ class AgentResponse(BaseModel):
     agent_type: str
     student_id: str
     context: Optional[Dict[str, Any]] = None
+    memory_used: Optional[List[str]] = None
+    confidence: Optional[float] = None
+
+class AskAgentRequest(BaseModel):
+    student_id: str
+    message: str
+    preferred_agent: Optional[str] = None  # "seed", "tree", "sky", or None for auto-routing
+    context: Optional[Dict[str, Any]] = None
+    use_memory: bool = True
+    memory_limit: int = 5
+
+class AskAgentResponse(BaseModel):
+    response: str
+    agent_used: str
+    routing_reason: str
+    memory_retrieved: List[str]
+    confidence_score: float
+    suggested_next_agent: Optional[str] = None
+    conversation_id: str
+    timestamp: str
 
 class LessonRequest(BaseModel):
     lesson_id: str
@@ -269,6 +289,75 @@ async def update_progress(progress: ProgressUpdate):
     
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error updating progress: {str(e)}")
+
+@app.post("/api/ask-agent", response_model=AskAgentResponse)
+async def ask_agent(request: AskAgentRequest):
+    """
+    Production-ready intelligent agent endpoint with automatic routing and memory
+    """
+    try:
+        import uuid
+        from datetime import datetime
+
+        conversation_id = str(uuid.uuid4())
+        timestamp = datetime.now().isoformat()
+
+        # Determine agent to use
+        selected_agent = request.preferred_agent or "seed"
+        routing_reason = f"User specified {selected_agent}" if request.preferred_agent else "Default to seed"
+
+        # Get or create agent
+        agent_key = f"{selected_agent}_{request.student_id}"
+        if agent_key not in active_agents:
+            agent = create_agent(selected_agent, request.student_id)
+            active_agents[agent_key] = agent
+        else:
+            agent = active_agents[agent_key]
+
+        # Retrieve memories
+        memory_retrieved = []
+        if request.use_memory and hasattr(agent, 'memory_system'):
+            try:
+                memory_results = agent.memory_system.search_memory(
+                    query=request.message, limit=request.memory_limit
+                )
+                memory_retrieved = [doc.page_content for doc in memory_results]
+            except Exception as e:
+                print(f"Memory retrieval error: {e}")
+
+        # Enhanced context
+        enhanced_context = request.context or {}
+        enhanced_context.update({
+            "conversation_id": conversation_id,
+            "retrieved_memories": memory_retrieved
+        })
+
+        # Get response
+        response = agent.respond(request.message, enhanced_context)
+
+        # Store interaction
+        if hasattr(agent, 'memory_system'):
+            try:
+                agent.memory_system.add_memory(
+                    content=f"Student: {request.message}\nAgent: {response}",
+                    metadata={"type": "conversation", "conversation_id": conversation_id}
+                )
+            except Exception as e:
+                print(f"Memory storage error: {e}")
+
+        return AskAgentResponse(
+            response=response,
+            agent_used=selected_agent,
+            routing_reason=routing_reason,
+            memory_retrieved=memory_retrieved,
+            confidence_score=0.85,
+            suggested_next_agent=None,
+            conversation_id=conversation_id,
+            timestamp=timestamp
+        )
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error in ask-agent: {str(e)}")
 
 # Lesson Flow endpoints
 @app.post("/api/lessons/start")

@@ -93,12 +93,22 @@ class AgentMemorySystem:
                     print("Using Chroma local vector store")
                 except Exception as chroma_error:
                     print(f"Chroma not available, falling back to FAISS: {chroma_error}")
-                    # Fallback to FAISS
-                    self.vector_store = FAISS.from_texts(
-                        ["Initial memory"], 
-                        self.embeddings,
-                        metadatas=[{"type": "initialization"}]
-                    )
+                    # Fallback to FAISS with persistence
+                    faiss_path = memory_path / "faiss_index"
+                    if faiss_path.exists():
+                        # Load existing FAISS index
+                        try:
+                            self.vector_store = FAISS.load_local(
+                                str(faiss_path),
+                                self.embeddings,
+                                allow_dangerous_deserialization=True
+                            )
+                            print("Loaded existing FAISS vector store")
+                        except Exception as load_error:
+                            print(f"Error loading FAISS index: {load_error}")
+                            self._create_new_faiss_store(faiss_path)
+                    else:
+                        self._create_new_faiss_store(faiss_path)
             else:
                 # Use Pinecone for cloud storage
                 if os.getenv('PINECONE_API_KEY') and Pinecone is not None:
@@ -131,7 +141,28 @@ class AgentMemorySystem:
         except Exception as e:
             print(f"Error setting up vector store, using FAISS fallback: {e}")
             self.vector_store = FAISS.from_texts(
-                ["Initial memory"], 
+                ["Initial memory"],
+                self.embeddings,
+                metadatas=[{"type": "initialization"}]
+            )
+
+    def _create_new_faiss_store(self, faiss_path: Path):
+        """Create a new FAISS vector store with persistence"""
+        try:
+            faiss_path.mkdir(parents=True, exist_ok=True)
+            self.vector_store = FAISS.from_texts(
+                ["Initial memory for agent"],
+                self.embeddings,
+                metadatas=[{"type": "initialization", "timestamp": datetime.now().isoformat()}]
+            )
+            # Save immediately for persistence
+            self.vector_store.save_local(str(faiss_path))
+            print("Created new persistent FAISS vector store")
+        except Exception as e:
+            print(f"Error creating FAISS store: {e}")
+            # Fallback to non-persistent FAISS
+            self.vector_store = FAISS.from_texts(
+                ["Initial memory"],
                 self.embeddings,
                 metadatas=[{"type": "initialization"}]
             )
@@ -224,16 +255,29 @@ class AgentMemorySystem:
             )
 
             self.vector_store.add_documents([document])
-            
+
+            # Persist vector store if using FAISS
+            self._persist_vector_store()
+
             # Update agent profile
             self.agent_profile['last_interaction'] = datetime.now().isoformat()
             self.agent_profile['total_interactions'] += 1
             self._save_agent_profile()
-            
+
             print(f"Memory added for {self.agent_type} agent")
         except Exception as e:
             print(f"Error adding memory: {e}")
             raise
+
+    def _persist_vector_store(self):
+        """Persist vector store to disk if using FAISS"""
+        try:
+            if hasattr(self.vector_store, 'save_local'):
+                memory_path = Path(self.config['persist_directory']) / self.agent_type / self.student_id / "faiss_index"
+                memory_path.mkdir(parents=True, exist_ok=True)
+                self.vector_store.save_local(str(memory_path))
+        except Exception as e:
+            print(f"Warning: Could not persist vector store: {e}")
 
     def search_memory(self, query: str, limit: int = 5, filter_dict: Dict[str, Any] = None) -> List[Dict[str, Any]]:
         """Search for relevant memories"""
